@@ -51,7 +51,7 @@ export default function RecommendedBuilds() {
             {result.bestBuild.map((item, i) => (
               <img
                 key={i}
-                src={item.replaceAll("'", "%27")}
+                 src={`/items/${item}`}
                 alt="item"
                 style={{ width: 64, margin: 5 }}
               />

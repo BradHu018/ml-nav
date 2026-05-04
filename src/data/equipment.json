@@ -2,1406 +2,1405 @@
   {
     "name": "Alucard",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp"
     ]
   },
   {
     "name": "Alice",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FClock_of_Destiny.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FIce_Queen_Wand.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Clock_of_Destiny.webp",
+      "Glowing_Wand.webp",
+      "Oracle.png",
+      "Winter_Crown.webp",
+      "Ice_Queen_Wand.webp"
     ]
   },
   {
     "name": "Angela",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDemon_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFlask_of_the_Oasis.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFleeting_Time.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75"
+      "Demon_Shoes.webp",
+      "Flask_of_the_Oasis.webp",
+      "Fleeting_Time.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Oracle.png"
     ]
   },
   {
     "name": "Argus",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWindtalker.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSea_Halberd.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGreat_Dragon_Spear.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHaas's_Claws.png&w=3840&q=75"
+      "Corrosion_Scythe.webp",
+      "Windtalker.png",
+      "Berserkers_Fury.webp",
+      "Sea_Halberd.webp",
+      "Great_Dragon_Spear.webp",
+      "Haas_Claws.webp"
     ]
   },
   {
     "name": "Aurora",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FLightning_Truncheon.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWishing_Lantern.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Glowing_Wand.webp",
+      "Lightning_Truncheon.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp",
+      "Wishing_Lantern.webp"
     ]
   },
   {
     "name": "Badang",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FThunder_Belt.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Thunder_Belt.webp",
+      "Tough_Boots.webp",
+      "Dominance_Ice.webp",
+      "Oracle.png",
+      "Blade_Armor.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Baxia",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTwilight_Armor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Dominance_Ice.webp",
+      "Blade_Armor.webp",
+      "Twilight_Armor.webp"
     ]
   },
   {
     "name": "Benedetta",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWarrior_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSea_Halberd.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75"
+      "Warrior_Boots.webp",
+      "Hunter_Strike.webp",
+      "Sea_Halberd.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp",
+      "Athenas_Shield.webp"
     ]
   },
   {
     "name": "Brody",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Heptaseas.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSky_Piercer.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Malefic_Gun.webp",
+      "Tough_Boots.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Sky_Piercer.webp",
+      "Berserkers_Fury.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Bruno",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHaas's_Claws.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWindtalker.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Haas_Claws.webp",
+      "Berserkers_Fury.webp",
+      "Malefic_Gun.webp",
+      "Windtalker.png",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Cecilion",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDemon_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FClock_of_Destiny.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FLightning_Truncheon.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75"
+      "Demon_Shoes.webp",
+      "Glowing_Wand.webp",
+      "Clock_of_Destiny.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp"
     ]
   },
   {
     "name": "Chou",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_the_Heptaseas.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Hunter_Strike.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp",
+      "Endless_Battle.webp"
     ]
   },
   {
     "name": "Claude",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDemon_Hunter_Sword.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGolden_Staff.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWind_of_Nature.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75"
+      "Corrosion_Scythe.webp",
+      "Tough_Boots.webp",
+      "Demon_Hunter_Sword.webp",
+      "Golden_Staff.webp",
+      "Wind_of_Nature.webp",
+      "Malefic_Gun.webp"
     ]
   },
   {
     "name": "Cyclops",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FConcentrated_Energy.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Enchanted_Talisman.webp",
+      "Concentrated_Energy.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp"
     ]
   },
   {
     "name": "Diggie",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFlask_of_the_Oasis.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFleeting_Time.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Flask_of_the_Oasis.webp",
+      "Fleeting_Time.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Esmeralda",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWarrior_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FStarlium_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFeather_of_Heaven.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75"
+      "Warrior_Boots.webp",
+      "Enchanted_Talisman.webp",
+      "Starlium_Scythe.webp",
+      "Feather_of_Heaven.webp",
+      "Holy_Crystal.webp",
+      "Blood_Wings.webp"
     ]
   },
   {
     "name": "Fanny",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSky_Piercer.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_the_Heptaseas.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Sky_Piercer.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Hunter_Strike.webp",
+      "Malefic_Roar.webp",
+      "Blade_of_Despair.webp"
     ]
   },
   {
     "name": "Floryn",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDemon_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFlask_of_the_Oasis.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFleeting_Time.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Demon_Shoes.webp",
+      "Flask_of_the_Oasis.webp",
+      "Fleeting_Time.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Franco",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRapid_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCursed_Helmet.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGuardian_Helmet.png&w=3840&q=75"
+      "Rapid_Boots.webp",
+      "Dominance_Ice.webp",
+      "Athenas_Shield.webp",
+      "Cursed_Helmet.webp",
+      "Antique_Cuirass.webp",
+      "Guardian_Helmet.webp"
     ]
   },
   {
     "name": "Gusion",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FStarlium_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSky_Piercer.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Starlium_Scythe.webp",
+      "Genius_Wand.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Sky_Piercer.webp"
     ]
   },
   {
     "name": "Guinevere",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FConcentrated_Energy.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FStarlium_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Genius_Wand.webp",
+      "Concentrated_Energy.webp",
+      "Starlium_Scythe.webp",
+      "Holy_Crystal.webp",
+      "Glowing_Wand.webp"
     ]
   },
   {
     "name": "Hanabi",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSwift_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDemon_Hunter_Sword.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGolden_Staff.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75"
+      "Corrosion_Scythe.webp",
+      "Swift_Boots.webp",
+      "Demon_Hunter_Sword.webp",
+      "Golden_Staff.webp",
+      "Rose_Gold_Meteor.webp",
+      "Malefic_Gun.webp"
     ]
   },
   {
     "name": "Harley",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSky_Piercer.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FStarlium_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Sky_Piercer.webp",
+      "Starlium_Scythe.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Hayabusa",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSky_Piercer.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Sky_Piercer.webp",
+      "Hunter_Strike.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp"
     ]
   },
   {
     "name": "Helcurt",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSwift_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSky_Piercer.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75"
+      "Swift_Boots.webp",
+      "Sky_Piercer.webp",
+      "Hunter_Strike.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp",
+      "Endless_Battle.webp"
     ]
   },
   {
     "name": "Hilda",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FThunder_Belt.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Thunder_Belt.webp",
+      "Dominance_Ice.webp",
+      "Athenas_Shield.webp",
+      "Blade_Armor.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Irithel",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHaas's_Claws.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGreat_Dragon_Spear.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Haas_Claws.webp",
+      "Tough_Boots.webp",
+      "Berserkers_Fury.webp",
+      "Great_Dragon_Spear.webp",
+      "Malefic_Gun.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Jawhead",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRadiant_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Antique_Cuirass.webp",
+      "Radiant_Armor.webp",
+      "Blade_Armor.webp",
+      "Oracle.png",
+      "Immortality.png"
     ]
   },
   {
     "name": "Johnson",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FThunder_Belt.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Thunder_Belt.webp",
+      "Athenas_Shield.webp",
+      "Dominance_Ice.webp",
+      "Blade_Armor.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Kagura",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSky_Piercer.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FLightning_Truncheon.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Sky_Piercer.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Blood_Wings.webp",
+      "Divine_Glaive.webp"
     ]
   },
   {
     "name": "Kaja",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FThunder_Belt.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFleeting_Time.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Thunder_Belt.webp",
+      "Fleeting_Time.webp",
+      "Dominance_Ice.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp"
     ]
   },
   {
     "name": "Karina",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSky_Piercer.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FStarlium_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FConcentrated_Energy.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Sky_Piercer.webp",
+      "Starlium_Scythe.webp",
+      "Concentrated_Energy.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp"
     ]
   },
   {
     "name": "Khufra",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Dominance_Ice.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Blade_Armor.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Kimmy",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFeather_of_Heaven.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FConcentrated_Energy.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Feather_of_Heaven.webp",
+      "Concentrated_Energy.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Lancelot",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp"
     ]
   },
   {
     "name": "Layla",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSwift_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWindtalker.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHaas's_Claws.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSea_Halberd.png&w=3840&q=75"
+      "Swift_Boots.webp",
+      "Windtalker.png",
+      "Berserkers_Fury.webp",
+      "Haas_Claws.webp",
+      "Malefic_Gun.webp",
+      "Sea_Halberd.webp"
     ]
   },
   {
     "name": "Leomord",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp"
     ]
   },
   {
     "name": "Lesley",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSwift_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Swift_Boots.webp",
+      "Berserkers_Fury.webp",
+      "Malefic_Gun.webp",
+      "Blade_of_Despair.webp",
+      "Endless_Battle.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Lapu-Lapu",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Oracle.png",
+      "Blood_Wings.webp",
+      "Dominance_Ice.webp",
+      "Blade_Armor.webp"
     ]
   },
   {
     "name": "Ling",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHaas's_Claws.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Berserkers_Fury.webp",
+      "Haas_Claws.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp"
     ]
   },
   {
     "name": "Luo Yi",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Blood_Wings.webp",
+      "Genius_Wand.webp",
+      "Divine_Glaive.webp"
     ]
   },
   {
     "name": "Martis",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSea_Halberd.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueen's_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Sea_Halberd.webp",
+      "Queens_Wings.webp",
+      "Blade_of_Despair.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Minotaur",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFlask_of_the_Oasis.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Flask_of_the_Oasis.webp",
+      "Antique_Cuirass.webp",
+      "Dominance_Ice.webp",
+      "Oracle.png",
+      "Immortality.png"
     ]
   },
   {
     "name": "Moskov",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSwift_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGolden_Staff.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDemon_Hunter_Sword.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Swift_Boots.webp",
+      "Corrosion_Scythe.webp",
+      "Golden_Staff.webp",
+      "Demon_Hunter_Sword.webp",
+      "Malefic_Gun.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Nana",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWishing_Lantern.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Glowing_Wand.webp",
+      "Blood_Wings.webp",
+      "Wishing_Lantern.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Natalia",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRapid_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_the_Heptaseas.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSky_Piercer.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGreat_Dragon_Sword.png&w=3840&q=75"
+      "Rapid_Boots.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Sky_Piercer.webp",
+      "Endless_Battle.webp",
+      "Berserkers_Fury.webp",
+      "Great_Dragon_Spear.webp"
     ]
   },
   {
     "name": "Odette",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWishing_Lantern.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75"
-      
+      "Glowing_Wand.webp",
+      "Magic_Shoes.webp",
+      "Winter_Crown.webp",
+      "Holy_Crystal.webp",
+      "Wishing_Lantern.webp",
+      "Divine_Glaive.webp"
     ]
   },
   {
     "name": "Paquito",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBrute_Force_Breastplate.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Brute_Force_Breastplate.webp",
+      "Oracle.png",
+      "Malefic_Roar.webp"
     ]
   },
   {
     "name": "Pharsa",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWishing_Lantern.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Glowing_Wand.webp",
+      "Blood_Wings.webp",
+      "Genius_Wand.webp",
+      "Wishing_Lantern.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Roger",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSwift_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWindtalker.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHaas's_Claws.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGreat_Dragon_Spear.png&w=3840&q=75"
+      "Swift_Boots.webp",
+      "Windtalker.png",
+      "Haas_Claws.webp",
+      "Berserkers_Fury.webp",
+      "Malefic_Gun.webp",
+      "Great_Dragon_Spear.webp"
     ]
   },
   {
     "name": "Ruby",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBrute_Force_Breastplate.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueen's_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTwilight_Armor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Brute_Force_Breastplate.webp",
+      "Queens_Wings.webp",
+      "Oracle.png",
+      "Twilight_Armor.webp"
     ]
   },
   {
     "name": "Saber",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_the_Heptaseas.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSea_Halberd.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Hunter_Strike.webp",
+      "Malefic_Roar.webp",
+      "Endless_Battle.webp",
+      "Sea_Halberd.webp"
     ]
   },
   {
     "name": "Selena",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FStarlium_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FLightning_Truncheon.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Starlium_Scythe.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Genius_Wand.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Silvanna",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFeather_of_Heaven.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FConcentrated_Energy.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Feather_of_Heaven.webp",
+      "Concentrated_Energy.webp",
+      "Rose_Gold_Meteor.webp",
+      "Holy_Crystal.webp",
+      "Blood_Wings.webp"
     ]
   },
   {
     "name": "Sun",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWindtalker.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHaas's_Claws.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Windtalker.png",
+      "Corrosion_Scythe.webp",
+      "Haas_Claws.webp",
+      "Berserkers_Fury.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Terizla",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueen's_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Dominance_Ice.webp",
+      "Queens_Wings.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp"
     ]
   },
   {
     "name": "Thamuz",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueen's_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRadiant_Armor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Corrosion_Scythe.webp",
+      "War_Axe.webp",
+      "Queens_Wings.webp",
+      "Dominance_Ice.webp",
+      "Radiant_Armor.webp"
     ]
   },
   {
     "name": "Tigreal",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGuardian_Helmet.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Antique_Cuirass.webp",
+      "Dominance_Ice.webp",
+      "Athenas_Shield.webp",
+      "Immortality.png",
+      "Guardian_Helmet.webp"
     ]
   },
   {
     "name": "Vale",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Glowing_Wand.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp"
     ]
   },
   {
     "name": "Vexana",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Blood_Wings.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Wanwan",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDemon_Hunter_Sword.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWind_of_Nature.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWindtalker.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Corrosion_Scythe.webp",
+      "Demon_Hunter_Sword.webp",
+      "Wind_of_Nature.webp",
+      "Malefic_Gun.webp",
+      "Windtalker.png",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "X.Borg",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBrute_Force_Breastplate.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FIce_Queen_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueen's_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Brute_Force_Breastplate.webp",
+      "Ice_Queen_Wand.webp",
+      "Queens_Wings.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Zhask",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFeather_of_Heaven.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FLightning_Truncheon.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Feather_of_Heaven.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Blood_Wings.webp"
     ]
   },
   {
     "name": "Zilong",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWindtalker.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHaas's_Claws.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Windtalker.png",
+      "Haas_Claws.webp",
+      "Berserkers_Fury.webp",
+      "Corrosion_Scythe.webp",
+      "Malefic_Gun.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Lukas",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueen's_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Queens_Wings.webp",
+      "Oracle.png",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Suyou",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueen's_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Queens_Wings.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp"
     ]
   },
   {
     "name": "Rafaela",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFlask_of_the_Oasis.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFleeting_Time.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FIce_Queen_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Flask_of_the_Oasis.webp",
+      "Fleeting_Time.webp",
+      "Oracle.png",
+      "Ice_Queen_Wand.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Estes",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFlask_of_the_Oasis.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Flask_of_the_Oasis.webp",
+      "Enchanted_Talisman.webp",
+      "Oracle.png",
+      "Winter_Crown.webp",
+      "Antique_Cuirass.webp"
     ]
   },
   {
     "name": "Harith",
     "bestBuild": [
-     "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FStarlium_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFeather_of_Heaven.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Starlium_Scythe.webp",
+      "Feather_of_Heaven.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Karrie",
     "bestBuild": [
-     "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSwift_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGolden_Staff.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDemon_Hunter_Sword.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Swift_Boots.webp",
+      "Corrosion_Scythe.webp",
+      "Golden_Staff.webp",
+      "Demon_Hunter_Sword.webp",
+      "Malefic_Gun.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Zetian",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FLightning_Truncheon.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Lightning_Truncheon.webp",
+      "Blood_Wings.webp",
+      "Divine_Glaive.webp"
     ]
   },
   {
     "name": "Kalea",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FThunder_Belt.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFleeting_Time.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGuardian_Helmet.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Thunder_Belt.webp",
+      "Fleeting_Time.webp",
+      "Oracle.png",
+      "Athenas_Shield.webp",
+      "Guardian_Helmet.webp"
     ]
   },
   {
     "name": "Zhuxin",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FClock_of_Destiny.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWishing_Lantern.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Clock_of_Destiny.webp",
+      "Glowing_Wand.webp",
+      "Wishing_Lantern.webp",
+      "Blood_Wings.webp",
+      "Divine_Glaive.webp"
     ]
   },
   {
     "name": "Chip",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWarrior_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFleeting_Time.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Warrior_Boots.webp",
+      "Fleeting_Time.webp",
+      "Dominance_Ice.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Cici",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBrute_Force_Breastplate.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Brute_Force_Breastplate.webp",
+      "Athenas_Shield.webp",
+      "Blade_Armor.webp",
+      "Hunter_Strike.webp"
     ]
   },
   {
     "name": "Nolan",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSky_Piercer.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSea_Halberd.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Sky_Piercer.webp",
+      "Hunter_Strike.webp",
+      "Endless_Battle.webp",
+      "Sea_Halberd.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Ixia",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSwift_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75"
+      "Swift_Boots.webp",
+      "Corrosion_Scythe.webp"
     ]
   },
   {
     "name": "Arlott",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCursed_Helmet.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Cursed_Helmet.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Dominance_Ice.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Novaria",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FLightning_Truncheon.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWishing_Lantern.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Lightning_Truncheon.webp",
+      "Wishing_Lantern.webp",
+      "Divine_Glaive.webp"
     ]
   },
   {
     "name": "Joy",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FConcentrated_Energy.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Holy_Crystal.webp",
+      "Concentrated_Energy.webp",
+      "Divine_Glaive.webp",
+      "Blood_Wings.webp"
     ]
   },
   {
     "name": "Fredrinn",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCursed_Helmet.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRadiant_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGuardian_Helmet.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Cursed_Helmet.webp",
+      "Radiant_Armor.webp",
+      "Guardian_Helmet.webp",
+      "Antique_Cuirass.webp",
+      "Blade_Armor.webp"
     ]
   },
   {
     "name": "Julian",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFeather_of_Heaven.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Feather_of_Heaven.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Xavier",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FLightning_Truncheon.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp"
     ]
   },
   {
     "name": "Melissa",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDemon_Hunter_Sword.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGolden_Staff.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWind_of_Nature.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Corrosion_Scythe.webp",
+      "Demon_Hunter_Sword.webp",
+      "Golden_Staff.webp",
+      "Wind_of_Nature.webp",
+      "Malefic_Roar.webp"
     ]
   },
   {
     "name": "Yin",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWarrior_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBrute_Force_Breastplate.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75"
+      "Warrior_Boots.webp",
+      "War_Axe.webp",
+      "Hunter_Strike.webp",
+      "Brute_Force_Breastplate.webp",
+      "Athenas_Shield.webp",
+      "Blade_of_Despair.webp"
     ]
   },
   {
     "name": "Edith",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRadiant_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFeather_of_Heaven.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Dominance_Ice.webp",
+      "Radiant_Armor.webp",
+      "Antique_Cuirass.webp",
+      "Feather_of_Heaven.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Valentina",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FLightning_Truncheon.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Enchanted_Talisman.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Aamon",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FStarlium_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Glowing_Wand.webp",
+      "Starlium_Scythe.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp"
     ]
   },
   {
     "name": "Aulus",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGolden_Staff.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Corrosion_Scythe.webp",
+      "Golden_Staff.webp",
+      "War_Axe.webp",
+      "Malefic_Gun.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Phoveus",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueens_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Queens_Wings.webp",
+      "Dominance_Ice.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp"
     ]
   },
   {
     "name": "Beatrix",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSwift_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWind_of_Nature.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHaas's_Claws.png&w=3840&q=75"
+      "Swift_Boots.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp",
+      "Hunter_Strike.webp",
+      "Wind_of_Nature.webp",
+      "Haas_Claws.webp"
     ]
   },
   {
     "name": "Gloo",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCursed_Helmet.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGuardian_Helmet.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBrute_Force_Breastplate.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Cursed_Helmet.webp",
+      "Oracle.png",
+      "Guardian_Helmet.webp",
+      "Brute_Force_Breastplate.webp",
+      "Dominance_Ice.webp"
     ]
   },
   {
     "name": "Mathilda",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFlask_of_the_Oasis.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Flask_of_the_Oasis.webp",
+      "Enchanted_Talisman.webp",
+      "Oracle.png",
+      "Blood_Wings.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Yve",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Barats",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FThunder_Belt.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBrute_Force_Breastplate.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueens_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Thunder_Belt.webp",
+      "Brute_Force_Breastplate.webp",
+      "Queens_Wings.webp",
+      "Antique_Cuirass.webp"
     ]
   },
   {
     "name": "Khaleed",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FThunder_Belt.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Thunder_Belt.webp",
+      "Oracle.png",
+      "Blade_Armor.webp",
+      "Athenas_Shield.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Yu Zhong",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWarrior_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueens_Wings.png&w=3840&q=75"
+      "Warrior_Boots.webp",
+      "War_Axe.webp",
+      "Dominance_Ice.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Queens_Wings.webp"
     ]
   },
   {
     "name": "Popol and Kupa",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSwift_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSea_Halberd.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWindtalker.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75"
+      "Swift_Boots.webp",
+      "Sea_Halberd.webp",
+      "Windtalker.png",
+      "Blade_of_Despair.webp",
+      "Berserkers_Fury.webp",
+      "Malefic_Roar.webp"
     ]
   },
   {
     "name": "Atlas",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRapid_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFleeting_Time.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Rapid_Boots.webp",
+      "Dominance_Ice.webp",
+      "Athenas_Shield.webp",
+      "Fleeting_Time.webp",
+      "Antique_Cuirass.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Carmilla",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWarrior_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FThunder_Belt.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRadiant_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Warrior_Boots.webp",
+      "Thunder_Belt.webp",
+      "Antique_Cuirass.webp",
+      "Dominance_Ice.webp",
+      "Radiant_Armor.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Masha",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSwift_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FThunder_Belt.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSea_Halberd.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75"
+      "Swift_Boots.webp",
+      "Thunder_Belt.webp",
+      "Endless_Battle.webp",
+      "Sea_Halberd.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp"
     ]
   },
   {
     "name": "Lylia",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Genius_Wand.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp"
     ]
   },
   {
     "name": "Dyrroth",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueens_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSea_Halberd.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Queens_Wings.webp",
+      "Sea_Halberd.webp",
+      "Blade_Armor.webp",
+      "Antique_Cuirass.webp"
     ]
   },
   {
     "name": "Granger",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSky_Piercer.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_the_Heptaseas.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "Sky_Piercer.webp",
+      "Malefic_Roar.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Faramis",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FLightning_Truncheon.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Glowing_Wand.webp",
+      "Enchanted_Talisman.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp"
     ]
   },
   {
     "name": "Kadita",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Blood_Wings.webp",
+      "Divine_Glaive.webp",
+      "Holy_Crystal.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Minsitthar",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDemon_Hunter_Sword.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGolden_Staff.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSea_Halberd.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Corrosion_Scythe.webp",
+      "Demon_Hunter_Sword.webp",
+      "Golden_Staff.webp",
+      "Malefic_Roar.webp",
+      "Sea_Halberd.webp"
     ]
   },
   {
     "name": "Belerick",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWarrior_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRadiant_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGuardian_Helmet.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTwilight_Armor.png&w=3840&q=75"
+      "Warrior_Boots.webp",
+      "Antique_Cuirass.webp",
+      "Radiant_Armor.webp",
+      "Blade_Armor.webp",
+      "Guardian_Helmet.webp",
+      "Twilight_Armor.webp"
     ]
   },
   {
     "name": "Hanzo",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCorrosion_Scythe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGolden_Staff.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDemon_Hunter_Sword.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Corrosion_Scythe.webp",
+      "Golden_Staff.webp",
+      "Demon_Hunter_Sword.webp",
+      "Malefic_Roar.webp",
+      "Blade_of_Despair.webp"
     ]
   },
   {
     "name": "Lunox",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FLightning_Truncheon.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWishing_Lantern.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Glowing_Wand.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Wishing_Lantern.webp"
     ]
   },
   {
     "name": "Aldous",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FThunder_Belt.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_the_Heptaseas.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueens_Wings.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Thunder_Belt.webp",
+      "Endless_Battle.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Blade_of_Despair.webp",
+      "Queens_Wings.webp"
     ]
   },
   {
     "name": "Chang'e",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWishing_Lantern.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Wishing_Lantern.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp"
     ]
   },
   {
     "name": "Uranus",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWarrior_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEnchanted_Talisman.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBrute_Force_Breastplate.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FOracle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Warrior_Boots.webp",
+      "Enchanted_Talisman.webp",
+      "Brute_Force_Breastplate.webp",
+      "Oracle.png",
+      "Blade_Armor.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Valir",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FIce_Queen_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Arcane_Boots.webp",
+      "Glowing_Wand.webp",
+      "Ice_Queen_Wand.webp",
+      "Blood_Wings.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Hylos",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FThunder_Belt.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRadiant_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Thunder_Belt.webp",
+      "Dominance_Ice.webp",
+      "Radiant_Armor.webp",
+      "Antique_Cuirass.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Grock",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRapid_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTwilight_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Rapid_Boots.webp",
+      "Dominance_Ice.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Twilight_Armor.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Yi Sun-shin",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHunter_Strike.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp"
     ]
   },
   {
     "name": "Alpha",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FQueens_Wings.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBrute_Force_Breastplate.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FImmortality.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Queens_Wings.webp",
+      "Blade_of_Despair.webp",
+      "Brute_Force_Breastplate.webp",
+      "Immortality.png"
     ]
   },
   {
     "name": "Gord",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMagic_Shoes.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGlowing_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FIce_Queen_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWinter_Crown.png&w=3840&q=75"
+      "Magic_Shoes.webp",
+      "Glowing_Wand.webp",
+      "Ice_Queen_Wand.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
     ]
   },
   {
     "name": "Freya",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Blade_of_Despair.webp",
+      "Berserkers_Fury.webp",
+      "Malefic_Roar.webp",
+      "Endless_Battle.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Lolita",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FThunder_Belt.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAthena's_Shield.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDominance_Ice.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTwilight_Armor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Thunder_Belt.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Dominance_Ice.webp",
+      "Twilight_Armor.webp"
     ]
   },
   {
     "name": "Eudora",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FArcane_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FGenius_Wand.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FSky_Piercer.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FLightning_Truncheon.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75"
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Sky_Piercer.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Blood_Wings.webp"
     ]
   },
   {
     "name": "Clint",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Endless_Battle.webp",
+      "Malefic_Gun.webp",
+      "Blade_of_Despair.webp",
+      "Berserkers_Fury.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
   {
     "name": "Bane",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FEndless_Battle.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Roar.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRose_Gold_Meteor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Roar.webp",
+      "Rose_Gold_Meteor.webp"
     ]
   },
-   {
+  {
     "name": "Akai",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FCursed_Helmet.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRadiant_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTwilight_Armor.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "Cursed_Helmet.webp",
+      "Antique_Cuirass.webp",
+      "Radiant_Armor.webp",
+      "Blade_Armor.webp",
+      "Twilight_Armor.webp"
     ]
   },
   {
     "name": "Balmond",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FTough_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWar_Axe.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBrute_Force_Breastplate.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FRadiant_Armor.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FAntique_Cuirass.png&w=3840&q=75"
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Brute_Force_Breastplate.webp",
+      "Blade_Armor.webp",
+      "Radiant_Armor.webp",
+      "Antique_Cuirass.webp"
     ]
   },
   {
     "name": "Miya",
     "bestBuild": [
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWindtalker.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWarrior_Boots.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHaas's_Claws.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBerserker's_Fury.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlade_of_Despair.png&w=3840&q=75",
-      "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FMalefic_Gun.png&w=3840&q=75"
+      "Windtalker.png",
+      "Warrior_Boots.webp",
+      "Haas_Claws.webp",
+      "Berserkers_Fury.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp"
     ]
   },
   {
-  "name": "Natan",
-  "bestBuild": [
-    "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FWarrior_Boots.png&w=3840&q=75",
-    "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FFeather_of_Heaven.png&w=3840&q=75",
-    "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FStarlium_Scythe.png&w=3840&q=75",
-    "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FHoly_Crystal.png&w=3840&q=75",
-    "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FDivine_Glaive.png&w=3840&q=75",
-    "https://mlbb.io/_next/image?url=%2Fimages%2Fitems%2FBlood_Wings.png&w=3840&q=75"
-  ]
-}
+    "name": "Natan",
+    "bestBuild": [
+      "Warrior_Boots.webp",
+      "Feather_of_Heaven.webp",
+      "Starlium_Scythe.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Blood_Wings.webp"
+    ]
+  }
 ]
