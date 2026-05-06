@@ -1,0 +1,1406 @@
+[
+  {
+    "name": "Alucard",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Alice",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Clock_of_Destiny.webp",
+      "Glowing_Wand.webp",
+      "Oracle.png",
+      "Winter_Crown.webp",
+      "Ice_Queen_Wand.webp"
+    ]
+  },
+  {
+    "name": "Angela",
+    "bestBuild": [
+      "Demon_Shoes.webp",
+      "Flask_of_the_Oasis.webp",
+      "Fleeting_Time.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Oracle.png"
+    ]
+  },
+  {
+    "name": "Argus",
+    "bestBuild": [
+      "Corrosion_Scythe.webp",
+      "Windtalker.png",
+      "Berserkers_Fury.webp",
+      "Sea_Halberd.webp",
+      "Great_Dragon_Spear.webp",
+      "Haas_Claws.webp"
+    ]
+  },
+  {
+    "name": "Aurora",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Glowing_Wand.webp",
+      "Lightning_Truncheon.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp",
+      "Wishing_Lantern.webp"
+    ]
+  },
+  {
+    "name": "Badang",
+    "bestBuild": [
+      "Thunder_Belt.webp",
+      "Tough_Boots.webp",
+      "Dominance_Ice.webp",
+      "Oracle.png",
+      "Blade_Armor.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Baxia",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Dominance_Ice.webp",
+      "Blade_Armor.webp",
+      "Chastise_Pauldron_Pauldron.webp"
+    ]
+  },
+  {
+    "name": "Benedetta",
+    "bestBuild": [
+      "Warrior_Boots.webp",
+      "Hunter_Strike.webp",
+      "Sea_Halberd.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp",
+      "Athenas_Shield.webp"
+    ]
+  },
+  {
+    "name": "Brody",
+    "bestBuild": [
+      "Malefic_Gun.webp",
+      "Tough_Boots.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Sky_Piercer.webp",
+      "Berserkers_Fury.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Bruno",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Haas_Claws.webp",
+      "Berserkers_Fury.webp",
+      "Malefic_Gun.webp",
+      "Windtalker.png",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Cecilion",
+    "bestBuild": [
+      "Demon_Shoes.webp",
+      "Glowing_Wand.webp",
+      "Clock_of_Destiny.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp"
+    ]
+  },
+  {
+    "name": "Chou",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Hunter_Strike.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp",
+      "Endless_Battle.webp"
+    ]
+  },
+  {
+    "name": "Claude",
+    "bestBuild": [
+      "Corrosion_Scythe.webp",
+      "Tough_Boots.webp",
+      "Demon_Hunter_Sword.webp",
+      "Golden_Staff.webp",
+      "Wind_of_Nature.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Cyclops",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Enchanted_Talisman.webp",
+      "Concentrated_Energy.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp"
+    ]
+  },
+  {
+    "name": "Diggie",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Flask_of_the_Oasis.webp",
+      "Fleeting_Time.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Esmeralda",
+    "bestBuild": [
+      "Warrior_Boots.webp",
+      "Enchanted_Talisman.webp",
+      "Starlium_Scythe.webp",
+      "Feather_of_Heaven.webp",
+      "Holy_Crystal.webp",
+      "Blood_Wings.webp"
+    ]
+  },
+  {
+    "name": "Fanny",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Sky_Piercer.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Hunter_Strike.webp",
+      "Malefic_Gun.webp",
+      "Blade_of_Despair.webp"
+    ]
+  },
+  {
+    "name": "Floryn",
+    "bestBuild": [
+      "Demon_Shoes.webp",
+      "Flask_of_the_Oasis.webp",
+      "Fleeting_Time.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Franco",
+    "bestBuild": [
+      "Rapid_Boots.webp",
+      "Dominance_Ice.webp",
+      "Athenas_Shield.webp",
+      "Cursed_Helmet.webp",
+      "Antique_Cuirass.webp",
+      "Guardian_Helmet.webp"
+    ]
+  },
+  {
+    "name": "Gusion",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Starlium_Scythe.webp",
+      "Genius_Wand.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Sky_Piercer.webp"
+    ]
+  },
+  {
+    "name": "Guinevere",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Genius_Wand.webp",
+      "Concentrated_Energy.webp",
+      "Starlium_Scythe.webp",
+      "Holy_Crystal.webp",
+      "Glowing_Wand.webp"
+    ]
+  },
+  {
+    "name": "Hanabi",
+    "bestBuild": [
+      "Corrosion_Scythe.webp",
+      "Swift_Boots.webp",
+      "Demon_Hunter_Sword.webp",
+      "Golden_Staff.webp",
+      "Rose_Gold_Meteor.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Harley",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Sky_Piercer.webp",
+      "Starlium_Scythe.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Hayabusa",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Sky_Piercer.webp",
+      "Hunter_Strike.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Helcurt",
+    "bestBuild": [
+      "Swift_Boots.webp",
+      "Sky_Piercer.webp",
+      "Hunter_Strike.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp",
+      "Endless_Battle.webp"
+    ]
+  },
+  {
+    "name": "Hilda",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Thunder_Belt.webp",
+      "Dominance_Ice.webp",
+      "Athenas_Shield.webp",
+      "Blade_Armor.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Irithel",
+    "bestBuild": [
+      "Haas_Claws.webp",
+      "Tough_Boots.webp",
+      "Berserkers_Fury.webp",
+      "Great_Dragon_Spear.webp",
+      "Malefic_Gun.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Jawhead",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Antique_Cuirass.webp",
+      "Radiant_Armor.webp",
+      "Blade_Armor.webp",
+      "Oracle.png",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Johnson",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Thunder_Belt.webp",
+      "Athenas_Shield.webp",
+      "Dominance_Ice.webp",
+      "Blade_Armor.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Kagura",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Sky_Piercer.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Blood_Wings.webp",
+      "Divine_Glaive.webp"
+    ]
+  },
+  {
+    "name": "Kaja",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Thunder_Belt.webp",
+      "Fleeting_Time.webp",
+      "Dominance_Ice.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp"
+    ]
+  },
+  {
+    "name": "Karina",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Sky_Piercer.webp",
+      "Starlium_Scythe.webp",
+      "Concentrated_Energy.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp"
+    ]
+  },
+  {
+    "name": "Khufra",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Dominance_Ice.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Blade_Armor.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Kimmy",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Feather_of_Heaven.webp",
+      "Concentrated_Energy.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Lancelot",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Layla",
+    "bestBuild": [
+      "Swift_Boots.webp",
+      "Windtalker.png",
+      "Berserkers_Fury.webp",
+      "Haas_Claws.webp",
+      "Malefic_Gun.webp",
+      "Sea_Halberd.webp"
+    ]
+  },
+  {
+    "name": "Leomord",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Lesley",
+    "bestBuild": [
+      "Swift_Boots.webp",
+      "Berserkers_Fury.webp",
+      "Malefic_Gun.webp",
+      "Blade_of_Despair.webp",
+      "Endless_Battle.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Lapu-Lapu",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Oracle.png",
+      "Blood_Wings.webp",
+      "Dominance_Ice.webp",
+      "Blade_Armor.webp"
+    ]
+  },
+  {
+    "name": "Ling",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Berserkers_Fury.webp",
+      "Haas_Claws.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Luo Yi",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Blood_Wings.webp",
+      "Genius_Wand.webp",
+      "Divine_Glaive.webp"
+    ]
+  },
+  {
+    "name": "Martis",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Sea_Halberd.webp",
+      "Queens_Wings.webp",
+      "Blade_of_Despair.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Minotaur",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Flask_of_the_Oasis.webp",
+      "Antique_Cuirass.webp",
+      "Dominance_Ice.webp",
+      "Oracle.png",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Moskov",
+    "bestBuild": [
+      "Swift_Boots.webp",
+      "Corrosion_Scythe.webp",
+      "Golden_Staff.webp",
+      "Demon_Hunter_Sword.webp",
+      "Malefic_Gun.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Nana",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Glowing_Wand.webp",
+      "Blood_Wings.webp",
+      "Wishing_Lantern.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Natalia",
+    "bestBuild": [
+      "Rapid_Boots.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Sky_Piercer.webp",
+      "Endless_Battle.webp",
+      "Berserkers_Fury.webp",
+      "Great_Dragon_Spear.webp"
+    ]
+  },
+  {
+    "name": "Odette",
+    "bestBuild": [
+      "Glowing_Wand.webp",
+      "Magic_Shoes.webp",
+      "Winter_Crown.webp",
+      "Holy_Crystal.webp",
+      "Wishing_Lantern.webp",
+      "Divine_Glaive.webp"
+    ]
+  },
+  {
+    "name": "Paquito",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Brute_Force_Breastplate.webp",
+      "Oracle.png",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Pharsa",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Glowing_Wand.webp",
+      "Blood_Wings.webp",
+      "Genius_Wand.webp",
+      "Wishing_Lantern.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Roger",
+    "bestBuild": [
+      "Swift_Boots.webp",
+      "Windtalker.png",
+      "Haas_Claws.webp",
+      "Berserkers_Fury.webp",
+      "Malefic_Gun.webp",
+      "Great_Dragon_Spear.webp"
+    ]
+  },
+  {
+    "name": "Ruby",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Brute_Force_Breastplate.webp",
+      "Queens_Wings.webp",
+      "Oracle.png",
+      "Chastise_Pauldron.webp"
+    ]
+  },
+  {
+    "name": "Saber",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Hunter_Strike.webp",
+      "Malefic_Gun.webp",
+      "Endless_Battle.webp",
+      "Sea_Halberd.webp"
+    ]
+  },
+  {
+    "name": "Selena",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Starlium_Scythe.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Genius_Wand.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Silvanna",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Feather_of_Heaven.webp",
+      "Concentrated_Energy.webp",
+      "Rose_Gold_Meteor.webp",
+      "Holy_Crystal.webp",
+      "Blood_Wings.webp"
+    ]
+  },
+  {
+    "name": "Sun",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Windtalker.png",
+      "Corrosion_Scythe.webp",
+      "Haas_Claws.webp",
+      "Berserkers_Fury.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Terizla",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Dominance_Ice.webp",
+      "Queens_Wings.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp"
+    ]
+  },
+  {
+    "name": "Thamuz",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Corrosion_Scythe.webp",
+      "War_Axe.webp",
+      "Queens_Wings.webp",
+      "Dominance_Ice.webp",
+      "Radiant_Armor.webp"
+    ]
+  },
+  {
+    "name": "Tigreal",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Antique_Cuirass.webp",
+      "Dominance_Ice.webp",
+      "Athenas_Shield.webp",
+      "Immortality.png",
+      "Guardian_Helmet.webp"
+    ]
+  },
+  {
+    "name": "Vale",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Glowing_Wand.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp"
+    ]
+  },
+  {
+    "name": "Vexana",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Blood_Wings.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Wanwan",
+    "bestBuild": [
+      "Corrosion_Scythe.webp",
+      "Demon_Hunter_Sword.webp",
+      "Wind_of_Nature.webp",
+      "Malefic_Gun.webp",
+      "Windtalker.png",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "X.Borg",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Brute_Force_Breastplate.webp",
+      "Ice_Queen_Wand.webp",
+      "Queens_Wings.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Zhask",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Feather_of_Heaven.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Blood_Wings.webp"
+    ]
+  },
+  {
+    "name": "Zilong",
+    "bestBuild": [
+      "Windtalker.png",
+      "Haas_Claws.webp",
+      "Berserkers_Fury.webp",
+      "Corrosion_Scythe.webp",
+      "Malefic_Gun.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Lukas",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Queens_Wings.webp",
+      "Oracle.png",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Suyou",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Queens_Wings.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Rafaela",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Flask_of_the_Oasis.webp",
+      "Fleeting_Time.webp",
+      "Oracle.png",
+      "Ice_Queen_Wand.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Estes",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Flask_of_the_Oasis.webp",
+      "Enchanted_Talisman.webp",
+      "Oracle.png",
+      "Winter_Crown.webp",
+      "Antique_Cuirass.webp"
+    ]
+  },
+  {
+    "name": "Harith",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Starlium_Scythe.webp",
+      "Feather_of_Heaven.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Karrie",
+    "bestBuild": [
+      "Swift_Boots.webp",
+      "Corrosion_Scythe.webp",
+      "Golden_Staff.webp",
+      "Demon_Hunter_Sword.webp",
+      "Malefic_Gun.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Zetian",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Lightning_Truncheon.webp",
+      "Blood_Wings.webp",
+      "Divine_Glaive.webp"
+    ]
+  },
+  {
+    "name": "Kalea",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Thunder_Belt.webp",
+      "Fleeting_Time.webp",
+      "Oracle.png",
+      "Athenas_Shield.webp",
+      "Guardian_Helmet.webp"
+    ]
+  },
+  {
+    "name": "Zhuxin",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Clock_of_Destiny.webp",
+      "Glowing_Wand.webp",
+      "Wishing_Lantern.webp",
+      "Blood_Wings.webp",
+      "Divine_Glaive.webp"
+    ]
+  },
+  {
+    "name": "Chip",
+    "bestBuild": [
+      "Warrior_Boots.webp",
+      "Fleeting_Time.webp",
+      "Dominance_Ice.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Cici",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Brute_Force_Breastplate.webp",
+      "Athenas_Shield.webp",
+      "Blade_Armor.webp",
+      "Hunter_Strike.webp"
+    ]
+  },
+  {
+    "name": "Nolan",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Sky_Piercer.webp",
+      "Hunter_Strike.webp",
+      "Endless_Battle.webp",
+      "Sea_Halberd.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Ixia",
+    "bestBuild": [
+      "Swift_Boots.webp",
+      "Corrosion_Scythe.webp"
+    ]
+  },
+  {
+    "name": "Arlott",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Cursed_Helmet.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Dominance_Ice.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Novaria",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Lightning_Truncheon.webp",
+      "Wishing_Lantern.webp",
+      "Divine_Glaive.webp"
+    ]
+  },
+  {
+    "name": "Joy",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Holy_Crystal.webp",
+      "Concentrated_Energy.webp",
+      "Divine_Glaive.webp",
+      "Blood_Wings.webp"
+    ]
+  },
+  {
+    "name": "Fredrinn",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Cursed_Helmet.webp",
+      "Radiant_Armor.webp",
+      "Guardian_Helmet.webp",
+      "Antique_Cuirass.webp",
+      "Blade_Armor.webp"
+    ]
+  },
+  {
+    "name": "Julian",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Feather_of_Heaven.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Xavier",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp"
+    ]
+  },
+  {
+    "name": "Melissa",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Corrosion_Scythe.webp",
+      "Demon_Hunter_Sword.webp",
+      "Golden_Staff.webp",
+      "Wind_of_Nature.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Yin",
+    "bestBuild": [
+      "Warrior_Boots.webp",
+      "War_Axe.webp",
+      "Hunter_Strike.webp",
+      "Brute_Force_Breastplate.webp",
+      "Athenas_Shield.webp",
+      "Blade_of_Despair.webp"
+    ]
+  },
+  {
+    "name": "Edith",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Dominance_Ice.webp",
+      "Radiant_Armor.webp",
+      "Antique_Cuirass.webp",
+      "Feather_of_Heaven.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Valentina",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Enchanted_Talisman.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Aamon",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Glowing_Wand.webp",
+      "Starlium_Scythe.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp"
+    ]
+  },
+  {
+    "name": "Aulus",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Corrosion_Scythe.webp",
+      "Golden_Staff.webp",
+      "War_Axe.webp",
+      "Malefic_Gun.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Phoveus",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Queens_Wings.webp",
+      "Dominance_Ice.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp"
+    ]
+  },
+  {
+    "name": "Beatrix",
+    "bestBuild": [
+      "Swift_Boots.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp",
+      "Hunter_Strike.webp",
+      "Wind_of_Nature.webp",
+      "Haas_Claws.webp"
+    ]
+  },
+  {
+    "name": "Gloo",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Cursed_Helmet.webp",
+      "Oracle.png",
+      "Guardian_Helmet.webp",
+      "Brute_Force_Breastplate.webp",
+      "Dominance_Ice.webp"
+    ]
+  },
+  {
+    "name": "Mathilda",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Flask_of_the_Oasis.webp",
+      "Enchanted_Talisman.webp",
+      "Oracle.png",
+      "Blood_Wings.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Yve",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Barats",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Thunder_Belt.webp",
+      "Brute_Force_Breastplate.webp",
+      "Queens_Wings.webp",
+      "Antique_Cuirass.webp"
+    ]
+  },
+  {
+    "name": "Khaleed",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Thunder_Belt.webp",
+      "Oracle.png",
+      "Blade_Armor.webp",
+      "Athenas_Shield.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Yu Zhong",
+    "bestBuild": [
+      "Warrior_Boots.webp",
+      "War_Axe.webp",
+      "Dominance_Ice.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Queens_Wings.webp"
+    ]
+  },
+  {
+    "name": "Popol and Kupa",
+    "bestBuild": [
+      "Swift_Boots.webp",
+      "Sea_Halberd.webp",
+      "Windtalker.png",
+      "Blade_of_Despair.webp",
+      "Berserkers_Fury.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Atlas",
+    "bestBuild": [
+      "Rapid_Boots.webp",
+      "Dominance_Ice.webp",
+      "Athenas_Shield.webp",
+      "Fleeting_Time.webp",
+      "Antique_Cuirass.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Carmilla",
+    "bestBuild": [
+      "Warrior_Boots.webp",
+      "Thunder_Belt.webp",
+      "Antique_Cuirass.webp",
+      "Dominance_Ice.webp",
+      "Radiant_Armor.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Masha",
+    "bestBuild": [
+      "Swift_Boots.webp",
+      "Thunder_Belt.webp",
+      "Endless_Battle.webp",
+      "Sea_Halberd.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Lylia",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Genius_Wand.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp"
+    ]
+  },
+  {
+    "name": "Dyrroth",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Queens_Wings.webp",
+      "Sea_Halberd.webp",
+      "Blade_Armor.webp",
+      "Antique_Cuirass.webp"
+    ]
+  },
+  {
+    "name": "Granger",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "Sky_Piercer.webp",
+      "Malefic_Gun.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Faramis",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Glowing_Wand.webp",
+      "Enchanted_Talisman.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp"
+    ]
+  },
+  {
+    "name": "Kadita",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Blood_Wings.webp",
+      "Divine_Glaive.webp",
+      "Holy_Crystal.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Minsitthar",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Corrosion_Scythe.webp",
+      "Demon_Hunter_Sword.webp",
+      "Golden_Staff.webp",
+      "Malefic_Gun.webp",
+      "Sea_Halberd.webp"
+    ]
+  },
+  {
+    "name": "Belerick",
+    "bestBuild": [
+      "Warrior_Boots.webp",
+      "Antique_Cuirass.webp",
+      "Radiant_Armor.webp",
+      "Blade_Armor.webp",
+      "Guardian_Helmet.webp",
+      "Chastise_Pauldron.webp"
+    ]
+  },
+  {
+    "name": "Hanzo",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Corrosion_Scythe.webp",
+      "Golden_Staff.webp",
+      "Demon_Hunter_Sword.webp",
+      "Malefic_Gun.webp",
+      "Blade_of_Despair.webp"
+    ]
+  },
+  {
+    "name": "Lunox",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Glowing_Wand.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Wishing_Lantern.webp"
+    ]
+  },
+  {
+    "name": "Aldous",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Thunder_Belt.webp",
+      "Endless_Battle.webp",
+      "Blade_of_the_Heptaseas.webp",
+      "Blade_of_Despair.webp",
+      "Queens_Wings.webp"
+    ]
+  },
+  {
+    "name": "Chang'e",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Enchanted_Talisman.webp",
+      "Glowing_Wand.webp",
+      "Wishing_Lantern.webp",
+      "Blood_Wings.webp",
+      "Holy_Crystal.webp"
+    ]
+  },
+  {
+    "name": "Uranus",
+    "bestBuild": [
+      "Warrior_Boots.webp",
+      "Enchanted_Talisman.webp",
+      "Brute_Force_Breastplate.webp",
+      "Oracle.png",
+      "Blade_Armor.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Valir",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Arcane_Boots.webp",
+      "Glowing_Wand.webp",
+      "Ice_Queen_Wand.webp",
+      "Blood_Wings.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Hylos",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Thunder_Belt.webp",
+      "Dominance_Ice.webp",
+      "Radiant_Armor.webp",
+      "Antique_Cuirass.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Grock",
+    "bestBuild": [
+      "Rapid_Boots.webp",
+      "Dominance_Ice.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Chastise_Pauldron.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Yi Sun-shin",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Hunter_Strike.webp",
+      "War_Axe.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Alpha",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Queens_Wings.webp",
+      "Blade_of_Despair.webp",
+      "Brute_Force_Breastplate.webp",
+      "Immortality.png"
+    ]
+  },
+  {
+    "name": "Gord",
+    "bestBuild": [
+      "Magic_Shoes.webp",
+      "Glowing_Wand.webp",
+      "Ice_Queen_Wand.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Winter_Crown.webp"
+    ]
+  },
+  {
+    "name": "Freya",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Blade_of_Despair.webp",
+      "Berserkers_Fury.webp",
+      "Malefic_Gun.webp",
+      "Endless_Battle.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Lolita",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Thunder_Belt.webp",
+      "Antique_Cuirass.webp",
+      "Athenas_Shield.webp",
+      "Dominance_Ice.webp",
+      "Chastise_Pauldron.webp"
+    ]
+  },
+  {
+    "name": "Eudora",
+    "bestBuild": [
+      "Arcane_Boots.webp",
+      "Genius_Wand.webp",
+      "Sky_Piercer.webp",
+      "Lightning_Truncheon.webp",
+      "Holy_Crystal.webp",
+      "Blood_Wings.webp"
+    ]
+  },
+  {
+    "name": "Clint",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Endless_Battle.webp",
+      "Malefic_Gun.webp",
+      "Blade_of_Despair.webp",
+      "Berserkers_Fury.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Bane",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Endless_Battle.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp",
+      "Rose_Gold_Meteor.webp"
+    ]
+  },
+  {
+    "name": "Akai",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "Cursed_Helmet.webp",
+      "Antique_Cuirass.webp",
+      "Radiant_Armor.webp",
+      "Blade_Armor.webp",
+      "Chastise_Pauldron.webp"
+    ]
+  },
+  {
+    "name": "Balmond",
+    "bestBuild": [
+      "Tough_Boots.webp",
+      "War_Axe.webp",
+      "Brute_Force_Breastplate.webp",
+      "Blade_Armor.webp",
+      "Radiant_Armor.webp",
+      "Antique_Cuirass.webp"
+    ]
+  },
+  {
+    "name": "Miya",
+    "bestBuild": [
+      "Windtalker.png",
+      "Warrior_Boots.webp",
+      "Haas_Claws.webp",
+      "Berserkers_Fury.webp",
+      "Blade_of_Despair.webp",
+      "Malefic_Gun.webp"
+    ]
+  },
+  {
+    "name": "Natan",
+    "bestBuild": [
+      "Warrior_Boots.webp",
+      "Feather_of_Heaven.webp",
+      "Starlium_Scythe.webp",
+      "Holy_Crystal.webp",
+      "Divine_Glaive.webp",
+      "Blood_Wings.webp"
+    ]
+  }
+]
