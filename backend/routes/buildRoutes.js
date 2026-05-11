@@ -6,9 +6,10 @@ const authMiddleware = require("../middleware/authMiddleware");
 const {
     createBuild,
     getMyBuilds,
-    // getAllBuilds,
-    // updateBuild,
-    // deleteBuild,
+    updateBuild,
+    deleteBuild,
+    getTopBuilds,
+    searchBuildsByHero,
 } = require("../controllers/buildController");
 
 console.log("authMiddleware is:", authMiddleware);
@@ -16,7 +17,8 @@ console.log("createBuild is:", createBuild);
 
 
 // public route: anyone can see community builds
-// router.get("/", getAllBuilds);
+router.get("/top", getTopBuilds);
+router.get("/search", searchBuildsByHero);
 
 // protected route: logged-in user creates a build
 router.post("/", authMiddleware, createBuild);
@@ -25,9 +27,9 @@ router.post("/", authMiddleware, createBuild);
 router.get("/my-builds", authMiddleware, getMyBuilds);
 
 // protected route: logged-in user edits their own build
-// router.put("/:id", authMiddleware, updateBuild);
+router.put("/:id", authMiddleware, updateBuild);
 
 // protected route: logged-in user deletes their own build
-// router.delete("/:id", authMiddleware, deleteBuild);
+router.delete("/:id", authMiddleware, deleteBuild);
 
 module.exports = router;

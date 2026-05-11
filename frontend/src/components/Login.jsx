@@ -16,7 +16,7 @@ function Login({ onAuthSuccess }) {
     setError("");
 
     try {
-      const response = await fetch("http://localhost:5000/api/login", {
+      const response = await fetch("http://localhost:5000/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -32,6 +32,7 @@ function Login({ onAuthSuccess }) {
       if (response.ok) {
         setMessage(data.message || "Logged in successfully");
 
+        localStorage.setItem("token", data.token);
         if (onAuthSuccess) {
           onAuthSuccess(data);
         }

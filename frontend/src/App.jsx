@@ -6,6 +6,7 @@ import Emblems from "./components/Emblems";
 import RecommendedBuilds from "./components/RecommendedBuilds";
 import Tips from "./components/Tips";
 import Navbar from "./components/Navbar";
+import CommunityBuildsPage from "./pages/CommunityBuildsPage";
 import "./App.css";
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
     currentPage = <Emblems />;
   } else if (page === "builds") {
     currentPage = <RecommendedBuilds />;
+  } else if (page === "community_builds") {
+    currentPage = <CommunityBuildsPage />;
   } else if (page === "tips") {
     currentPage = <Tips />;
   } else {
