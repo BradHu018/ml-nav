@@ -16,7 +16,7 @@
       "Tough_Boots.webp",
       "Clock_of_Destiny.webp",
       "Glowing_Wand.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Winter_Crown.webp",
       "Ice_Queen_Wand.webp"
     ]
@@ -29,14 +29,14 @@
       "Fleeting_Time.webp",
       "Enchanted_Talisman.webp",
       "Glowing_Wand.webp",
-      "Oracle.png"
+      "Oracle.webp"
     ]
   },
   {
     "name": "Argus",
     "bestBuild": [
       "Corrosion_Scythe.webp",
-      "Windtalker.png",
+      "Windtalker.webp",
       "Berserkers_Fury.webp",
       "Sea_Halberd.webp",
       "Great_Dragon_Spear.webp",
@@ -60,9 +60,9 @@
       "Thunder_Belt.webp",
       "Tough_Boots.webp",
       "Dominance_Ice.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Blade_Armor.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -105,7 +105,7 @@
       "Haas_Claws.webp",
       "Berserkers_Fury.webp",
       "Malefic_Gun.webp",
-      "Windtalker.png",
+      "Windtalker.webp",
       "Rose_Gold_Meteor.webp"
     ]
   },
@@ -282,7 +282,7 @@
       "Dominance_Ice.webp",
       "Athenas_Shield.webp",
       "Blade_Armor.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -303,8 +303,8 @@
       "Antique_Cuirass.webp",
       "Radiant_Armor.webp",
       "Blade_Armor.webp",
-      "Oracle.png",
-      "Immortality.png"
+      "Oracle.webp",
+      "Immortality.webp"
     ]
   },
   {
@@ -315,7 +315,7 @@
       "Athenas_Shield.webp",
       "Dominance_Ice.webp",
       "Blade_Armor.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -359,7 +359,7 @@
       "Antique_Cuirass.webp",
       "Athenas_Shield.webp",
       "Blade_Armor.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -388,7 +388,7 @@
     "name": "Layla",
     "bestBuild": [
       "Swift_Boots.webp",
-      "Windtalker.png",
+      "Windtalker.webp",
       "Berserkers_Fury.webp",
       "Haas_Claws.webp",
       "Malefic_Gun.webp",
@@ -422,7 +422,7 @@
     "bestBuild": [
       "Tough_Boots.webp",
       "War_Axe.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Blood_Wings.webp",
       "Dominance_Ice.webp",
       "Blade_Armor.webp"
@@ -458,7 +458,7 @@
       "Sea_Halberd.webp",
       "Queens_Wings.webp",
       "Blade_of_Despair.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -468,8 +468,8 @@
       "Flask_of_the_Oasis.webp",
       "Antique_Cuirass.webp",
       "Dominance_Ice.webp",
-      "Oracle.png",
-      "Immortality.png"
+      "Oracle.webp",
+      "Immortality.webp"
     ]
   },
   {
@@ -523,7 +523,7 @@
       "Hunter_Strike.webp",
       "War_Axe.webp",
       "Brute_Force_Breastplate.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Malefic_Gun.webp"
     ]
   },
@@ -542,7 +542,7 @@
     "name": "Roger",
     "bestBuild": [
       "Swift_Boots.webp",
-      "Windtalker.png",
+      "Windtalker.webp",
       "Haas_Claws.webp",
       "Berserkers_Fury.webp",
       "Malefic_Gun.webp",
@@ -556,7 +556,7 @@
       "War_Axe.webp",
       "Brute_Force_Breastplate.webp",
       "Queens_Wings.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Chastise_Pauldron.webp"
     ]
   },
@@ -597,7 +597,7 @@
     "name": "Sun",
     "bestBuild": [
       "Tough_Boots.webp",
-      "Windtalker.png",
+      "Windtalker.webp",
       "Corrosion_Scythe.webp",
       "Haas_Claws.webp",
       "Berserkers_Fury.webp",
@@ -633,7 +633,7 @@
       "Antique_Cuirass.webp",
       "Dominance_Ice.webp",
       "Athenas_Shield.webp",
-      "Immortality.png",
+      "Immortality.webp",
       "Guardian_Helmet.webp"
     ]
   },
@@ -666,7 +666,7 @@
       "Demon_Hunter_Sword.webp",
       "Wind_of_Nature.webp",
       "Malefic_Gun.webp",
-      "Windtalker.png",
+      "Windtalker.webp",
       "Rose_Gold_Meteor.webp"
     ]
   },
@@ -678,7 +678,7 @@
       "Brute_Force_Breastplate.webp",
       "Ice_Queen_Wand.webp",
       "Queens_Wings.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -695,7 +695,7 @@
   {
     "name": "Zilong",
     "bestBuild": [
-      "Windtalker.png",
+      "Windtalker.webp",
       "Haas_Claws.webp",
       "Berserkers_Fury.webp",
       "Corrosion_Scythe.webp",
@@ -710,7 +710,7 @@
       "Hunter_Strike.webp",
       "War_Axe.webp",
       "Queens_Wings.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Winter_Crown.webp"
     ]
   },
@@ -731,7 +731,7 @@
       "Magic_Shoes.webp",
       "Flask_of_the_Oasis.webp",
       "Fleeting_Time.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Ice_Queen_Wand.webp",
       "Winter_Crown.webp"
     ]
@@ -742,7 +742,7 @@
       "Magic_Shoes.webp",
       "Flask_of_the_Oasis.webp",
       "Enchanted_Talisman.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Winter_Crown.webp",
       "Antique_Cuirass.webp"
     ]
@@ -786,7 +786,7 @@
       "Magic_Shoes.webp",
       "Thunder_Belt.webp",
       "Fleeting_Time.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Athenas_Shield.webp",
       "Guardian_Helmet.webp"
     ]
@@ -810,7 +810,7 @@
       "Dominance_Ice.webp",
       "Antique_Cuirass.webp",
       "Athenas_Shield.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -850,7 +850,7 @@
       "Antique_Cuirass.webp",
       "Athenas_Shield.webp",
       "Dominance_Ice.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -938,7 +938,7 @@
       "Radiant_Armor.webp",
       "Antique_Cuirass.webp",
       "Feather_of_Heaven.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -1001,7 +1001,7 @@
     "bestBuild": [
       "Tough_Boots.webp",
       "Cursed_Helmet.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Guardian_Helmet.webp",
       "Brute_Force_Breastplate.webp",
       "Dominance_Ice.webp"
@@ -1013,9 +1013,9 @@
       "Tough_Boots.webp",
       "Flask_of_the_Oasis.webp",
       "Enchanted_Talisman.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Blood_Wings.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -1045,10 +1045,10 @@
     "bestBuild": [
       "Tough_Boots.webp",
       "Thunder_Belt.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Blade_Armor.webp",
       "Athenas_Shield.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -1067,7 +1067,7 @@
     "bestBuild": [
       "Swift_Boots.webp",
       "Sea_Halberd.webp",
-      "Windtalker.png",
+      "Windtalker.webp",
       "Blade_of_Despair.webp",
       "Berserkers_Fury.webp",
       "Malefic_Gun.webp"
@@ -1081,7 +1081,7 @@
       "Athenas_Shield.webp",
       "Fleeting_Time.webp",
       "Antique_Cuirass.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -1092,7 +1092,7 @@
       "Antique_Cuirass.webp",
       "Dominance_Ice.webp",
       "Radiant_Armor.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -1233,9 +1233,9 @@
       "Warrior_Boots.webp",
       "Enchanted_Talisman.webp",
       "Brute_Force_Breastplate.webp",
-      "Oracle.png",
+      "Oracle.webp",
       "Blade_Armor.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -1257,7 +1257,7 @@
       "Dominance_Ice.webp",
       "Radiant_Armor.webp",
       "Antique_Cuirass.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -1268,7 +1268,7 @@
       "Antique_Cuirass.webp",
       "Athenas_Shield.webp",
       "Chastise_Pauldron.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -1290,7 +1290,7 @@
       "Queens_Wings.webp",
       "Blade_of_Despair.webp",
       "Brute_Force_Breastplate.webp",
-      "Immortality.png"
+      "Immortality.webp"
     ]
   },
   {
@@ -1384,7 +1384,7 @@
   {
     "name": "Miya",
     "bestBuild": [
-      "Windtalker.png",
+      "Windtalker.webp",
       "Warrior_Boots.webp",
       "Haas_Claws.webp",
       "Berserkers_Fury.webp",

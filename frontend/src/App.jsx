@@ -7,6 +7,7 @@ import RecommendedBuilds from "./components/RecommendedBuilds";
 import Tips from "./components/Tips";
 import Navbar from "./components/Navbar";
 import CommunityBuildsPage from "./pages/CommunityBuildsPage";
+import MyBuildsPage from "./pages/MyBuildsPage";
 import "./App.css";
 
 function App() {
@@ -36,7 +37,10 @@ function App() {
     currentPage = <CommunityBuildsPage />;
   } else if (page === "tips") {
     currentPage = <Tips />;
-  } else {
+  } else if (page === "my_builds") {
+    currentPage = <MyBuildsPage />
+  } 
+  else {
     currentPage = <Home />;
   }
 

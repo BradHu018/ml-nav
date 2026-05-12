@@ -21,7 +21,7 @@ const starterBuilds = [
       "Hunter Strike",
       "Endless Battle",
       "War Axe",
-      "Malefic Roar",
+      "Malefic Gun",
       "Immortality",
     ],
   },
@@ -62,7 +62,7 @@ const starterBuilds = [
       "Berserker's Fury",
       "Endless Battle",
       "Blade of Despair",
-      "Malefic Roar",
+      "Malefic Gun",
       "Windtalker",
       "Immortality",
     ],
@@ -80,7 +80,7 @@ const starterBuilds = [
     upvotes: 1401,
     downvotes: 0,
     build_items: [
-      "Calamity Reaper",
+      "Starlium Scythe",
       "Divine Glaive",
       "Blood Wings",
       "Genius Wand",
@@ -199,6 +199,52 @@ function CommunityBuilds() {
       ...prev,
       [name]: type === "checkbox" ? checked : value,
     }));
+  }
+
+  async function handleUpvote(buildId) {
+
+    if (String(buildId).startsWith("starter-")) {
+        setError("Starter builds are demo builds and cannot be upvoted.");
+        return;
+    }
+    const token = localStorage.getItem("token");
+
+    if (!token) {
+        setError("you need to log in before upvoting a build.");
+        return;
+    }
+
+    setError("");
+    setMessage("");
+
+    try {
+        const response = await fetch(`${API_URL}/${buildId}/upvote`, {
+            method: "POST",
+            headers: {
+                Authorization: `Bearer ${token}`,
+            },
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+            throw new Error(data.message || "Could not upvote build");
+        }
+
+        setBackendBuilds((prev) =>
+            prev.map((build) =>
+                build.id === buildId
+                ? {
+                    ...build,
+                    upvotes: data.upvotes,
+                    }
+                : build
+            )
+        );
+    } catch (err) {
+        setError(err.message);
+    }
+
   }
 
   async function handleSubmit(e) {
@@ -336,9 +382,10 @@ function CommunityBuilds() {
         ) : displayBuilds.length > 0 ? (
           displayBuilds.map((build, index) => (
             <BuildCard
-              key={build.id}
-              build={build}
-              rank={search.trim() === "" ? index + 1 : null}
+                key={build.id}
+                build={build}
+                rank={search.trim() === "" ? index + 1 : null}
+                onUpvote={handleUpvote}
             />
           ))
         ) : (
