@@ -10,6 +10,7 @@ const {
     deleteBuild,
     getTopBuilds,
     searchBuildsByHero,
+    upvoteBuild,
 } = require("../controllers/buildController");
 
 console.log("authMiddleware is:", authMiddleware);
@@ -26,10 +27,13 @@ router.post("/", authMiddleware, createBuild);
 // protected route: logged-in user sees only their builds
 router.get("/my-builds", authMiddleware, getMyBuilds);
 
+router.post("/:id/upvote", authMiddleware, upvoteBuild);
+
 // protected route: logged-in user edits their own build
 router.put("/:id", authMiddleware, updateBuild);
 
 // protected route: logged-in user deletes their own build
 router.delete("/:id", authMiddleware, deleteBuild);
+
 
 module.exports = router;

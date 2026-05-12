@@ -193,7 +193,7 @@ async function updateBuild(req, res) {
                 emblem = ?, 
                 battle_spell = ?,
                 is_public = ?
-            WHERE id = ? and user_id = ? 
+            WHERE id = ? AND user_id = ? 
             `,
             [hero_name, build_name, description, emblem, battle_spell, is_public === false ? false : true, buildId, userId]
         );
@@ -396,6 +396,124 @@ async function searchBuildsByHero(req, res) {
     }
 }
 
+async function upvoteBuild(req, res) {
+    let connection; 
+
+    try {
+
+        connection = await db.getConnection();
+
+        const buildId = req.params.id;
+        const userId = req.user.id;
+
+        await connection.beginTransaction();
+
+        const [buildRows] = await connection.query(
+            `
+            SELECT id, user_id, is_public, upvotes
+            FROM saved_builds
+            WHERE id = ?
+            `,
+            [buildId]
+        );
+
+        if (buildRows.length === 0) {
+            await connection.rollback();
+
+            return res.status(404).json({
+                message: "Build not found",
+            });
+        }
+
+        const build = buildRows[0];
+
+        if (!build.is_public) {
+            await connection.rollback();
+
+            return res.status(403).json({
+                message: "You cannot upvote a private build",
+            });
+        }
+
+        if (Number(build.user_id) === Number(userId)) {
+            await connection.rollback();
+
+            return res.status(403).json({
+                message: "You cannot upvote your own build",
+            });
+        }
+
+        const [existingVoteRows] = await connection.query(
+            `
+            SELECT id
+            FROM build_votes
+            WHERE build_id = ? AND user_id = ?
+            `,
+            [buildId, userId]
+        );
+
+        if (existingVoteRows.length > 0) {
+            await connection.rollback();
+
+            return res.status(409).json({
+                message: "You already upvoted this build",
+                upvotes: build.upvotes,
+            });
+        }
+
+        await connection.query(
+            `
+            INSERT INTO build_votes (build_id, user_id, vote_type)
+            VALUES (?, ?, 'upvote')
+            `,
+            [buildId, userId]
+        );
+
+        await connection.query(
+            `
+            UPDATE saved_builds
+            SET upvotes = upvotes + 1
+            WHERE id = ?
+            `,
+            [buildId]
+        );
+
+        const [updatedRows] = await connection.query(
+            `
+            SELECT upvotes
+            FROM saved_builds
+            WHERE id = ?
+            `,
+            [buildId]
+        );
+
+        await connection.commit();
+
+        return res.status(200).json({
+            message: "Build upvoted successfully",
+            upvotes: updatedRows[0].upvotes,
+        });
+    } catch (error) {
+        await connection.rollback();
+
+        console.error("Upvote build error:", error);
+        
+        if (error.code === "ER_DUP_ENTRY") {
+            return res.status(409).json({
+                message: "You already upvoted this build",
+            });
+        }
+
+        return res.status(500).json({
+            message: "Internal server error while upvoting build",
+        });
+    } finally {
+        if (connection) {
+            connection.release();
+        }
+    }
+}
+
 
 module.exports = {
     createBuild,
@@ -404,4 +522,5 @@ module.exports = {
     deleteBuild,
     getTopBuilds,
     searchBuildsByHero,
+    upvoteBuild,
 };
