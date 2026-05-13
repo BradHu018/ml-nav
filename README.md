@@ -1,16 +1,104 @@
-# React + Vite
+# ML Navigator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ML Navigator is a full-stack Mobile Legends: Bang Bang companion web app that helps players explore hero statistics, tier rankings, recommended builds, emblems, tips, and community-created builds.
 
-Currently, two official plugins are available:
+The project combines a React frontend with a Node/Express backend and MySQL database to support user authentication, protected build creation, community build sharing, and dynamic build filtering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+### Hero and Game Information
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse Mobile Legends hero-related content through a clean React interface.
+- View recommended builds, emblems, and gameplay tips.
+- Explore a tier list based on win rate, pick rate, and ban rate logic.
+- Use role-based and hero-based organization to make game data easier to understand.
 
-## Expanding the ESLint configuration
+### Community Builds
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Users can create custom hero builds with:
+  - Hero name
+  - Build name
+  - Description
+  - Emblem
+  - Battle spell
+  - 6 selected equipment items
+- Community builds can be displayed and searched by hero.
+- Builds are sorted to prioritize stronger or more popular community submissions.
+- Each build includes creator credit through username display.
+
+### Authentication
+
+- User signup and login with secure password hashing.
+- JWT-based authentication for protected backend routes.
+- Logged-in users can create, update, and delete their own builds.
+
+### Backend and Database
+
+- REST API built with Express.
+- MySQL database stores users, saved builds, and build items.
+- Uses relational tables with foreign keys and cascading deletes.
+- Build creation uses transactions to keep saved builds and their items consistent.
+
+## Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+### Backend
+
+- Node.js
+- Express.js
+- MySQL
+- mysql2/promise
+- bcrypt
+- JSON Web Tokens
+- dotenv
+- CORS
+
+### Tools
+
+- MySQL Workbench
+- Thunder Client / Postman
+- Git / GitHub
+- npm / nodemon
+
+## Project Structure
+
+```txt
+ml-navigator/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── BuildCard.jsx
+│   │   │   ├── HeroStats.jsx
+│   │   │   ├── Emblems.jsx
+│   │   │   ├── RecommendedBuilds.jsx
+│   │   │   └── Tips.jsx
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Auth.jsx
+│   │   │   ├── CommunityBuildsPage.jsx
+│   │   │   └── TierListPage.jsx
+│   │   ├── App.jsx
+│   │   └── App.css
+│   └── package.json
+│
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   └── buildController.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   └── buildRoutes.js
+│   ├── server.js
+│   ├── .env
+│   └── package.json
