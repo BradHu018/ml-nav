@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import BuildCard from "./BuildCard";
 
 const API_URL = "http://localhost:5000/api/builds";
+const FAVORITES_API_URL = "http://localhost:5000/api/favorites";
 
 const starterBuilds = [
   {
@@ -247,6 +248,42 @@ function CommunityBuilds() {
 
   }
 
+  async function handleSaveBuild(buildId) {
+     if (String(buildId).startsWith("starter-")) {
+        setError("Starter builds are demo builds and cannot be saved.");
+        return;
+      }
+
+      const token = localStorage.getItem("token");
+
+      if (!token) {
+        setError("You need to log in before saving a build.");
+        return;
+      }
+
+      setError("");
+      setMessage("");
+
+      try {
+        const response = await fetch(`${FAVORITES_API_URL}/${buildId}`, {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.message || "Could not save build");
+        }
+
+        setMessage("Build saved successfully.");
+      } catch (err) {
+        setError(err.message);
+      }
+  }
+
   async function handleSubmit(e) {
     e.preventDefault();
 
@@ -386,6 +423,7 @@ function CommunityBuilds() {
                 build={build}
                 rank={search.trim() === "" ? index + 1 : null}
                 onUpvote={handleUpvote}
+                onSave = {handleSaveBuild}
             />
           ))
         ) : (

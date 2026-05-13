@@ -17,28 +17,29 @@ body {
 /* ---------- Navbar ---------- */
 
 .navbar {
-  width: min(92%, 1500px);
+  width: calc(100% - 96px);
+  max-width: 1500px;
   min-height: 76px;
   margin: 0 auto;
   background: #111827;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 56px;
+  padding: 0 42px;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
 .title {
-  font-size: 2.9rem;
+  font-size: 2.55rem;
   font-weight: 900;
   background: linear-gradient(135deg, #60a5fa, #a855f7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
   line-height: 1;
-  margin-right: 38px;
+  margin-right: 28px;
   flex-shrink: 0;
 }
 
@@ -48,7 +49,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   flex-wrap: nowrap;
-  gap: 28px;
+  gap: 14px;
   margin: 0;
   padding: 0;
 }
@@ -62,7 +63,7 @@ body {
   border: none;
   background: transparent;
   color: white;
-  font-size: 0.98rem;
+  font-size: 0.88rem;
   font-weight: 700;
   cursor: pointer;
   white-space: nowrap;
@@ -78,7 +79,7 @@ body {
   border: none;
   background: rgba(168, 85, 247, 0.12);
   color: white;
-  font-size: 1.8rem;
+  font-size: 1.65rem;
   border-radius: 10px;
   padding: 8px 13px;
   cursor: pointer;
@@ -88,10 +89,10 @@ body {
   background: rgba(168, 85, 247, 0.24);
 }
 
-/* Switch to hamburger menu when navbar gets too crowded */
-@media (max-width: 1180px) {
+/* Switch to hamburger before the links start wrapping */
+@media (max-width: 1420px) {
   .navbar {
-    width: min(92%, 1100px);
+    width: calc(100% - 72px);
     padding: 0 34px;
   }
 
@@ -128,7 +129,7 @@ body {
     text-align: left;
     padding: 14px 16px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .nav-links button:hover {
@@ -144,8 +145,13 @@ body {
   }
 
   .title {
-    font-size: 2.35rem;
+    font-size: 2.15rem;
     margin-right: 0;
+  }
+
+  .hamburger-btn {
+    font-size: 1.45rem;
+    padding: 7px 11px;
   }
 
   .nav-links {
@@ -552,23 +558,6 @@ h1.gradient-text {
   font-size: 1rem;
 }
 
-.vote-box {
-  position: absolute;
-  top: 28px;
-  right: 28px;
-  width: 96px;
-  height: 96px;
-  border: none;
-  border-radius: 14px;
-  background: rgba(92, 24, 145, 0.95);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
-  cursor: pointer;
-}
 
 .vote-box:hover {
   background: rgba(120, 35, 190, 0.95);
@@ -751,14 +740,6 @@ h1.gradient-text {
     padding: 24px;
   }
 
-  .vote-box {
-    position: static;
-    margin-top: 24px;
-    width: 100%;
-    height: 70px;
-    flex-direction: row;
-  }
-
   .form-row {
     grid-template-columns: 1fr;
     gap: 0;
@@ -912,45 +893,6 @@ h1.gradient-text {
   background: rgba(239, 68, 68, 0.95);
 }
 
-/* ---------- Build Card Flip Effect ---------- */
-
-.build-card-flip {
-  perspective: 1200px;
-  min-height: 260px;
-}
-
-.build-card-inner {
-  position: relative;
-  width: 100%;
-  min-height: 260px;
-  transform-style: preserve-3d;
-  transition: transform 0.65s ease;
-}
-
-.build-card-flip:hover .build-card-inner {
-  transform: rotateY(180deg);
-}
-
-.build-card-front,
-.build-card-back {
-  width: 100%;
-  min-height: 260px;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
-
-.build-card-front {
-  position: relative;
-}
-
-.build-card-back {
-  position: absolute;
-  inset: 0;
-  transform: rotateY(180deg);
-  padding-right: 32px;
-  overflow-y: auto;
-}
-
 .build-card-front:hover {
   border-color: rgba(196, 132, 252, 0.7);
   box-shadow:
@@ -1040,4 +982,376 @@ h1.gradient-text {
   .build-card-back {
     display: none;
   }
+}
+
+/* ---------- Saved Builds Page ---------- */
+
+.saved-builds-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top right, rgba(166, 0, 255, 0.45), transparent 42%),
+    linear-gradient(135deg, #0b1020 0%, #24184a 48%, #55118a 100%);
+  color: white;
+  padding: 70px 24px 100px;
+}
+
+.saved-builds-container {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+}
+
+.saved-builds-header {
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.saved-builds-header h1 {
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  line-height: 1;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: -1.5px;
+}
+
+.saved-builds-header p {
+  max-width: 760px;
+  margin: 18px auto 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.saved-builds-section {
+  margin-top: 20px;
+}
+
+.saved-builds-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+}
+
+.saved-builds-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.saved-build-wrapper {
+  position: relative;
+}
+
+.saved-build-card-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.unsave-build-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 11px 18px;
+  color: white;
+  font-size: 0.98rem;
+  font-weight: 800;
+  cursor: pointer;
+  background: rgba(220, 38, 38, 0.9);
+}
+
+.unsave-build-btn:hover {
+  background: rgba(239, 68, 68, 0.95);
+}
+
+/* Save button on community build cards */
+
+/* ---------- Build Card Shell + Button Position Fix ---------- */
+
+.build-card-shell {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
+}
+
+.build-card-flip {
+  perspective: 1200px;
+  min-height: 280px;
+}
+
+.build-card-inner {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
+  transform-style: preserve-3d;
+  transition: transform 0.65s ease;
+}
+
+.build-card-flip:hover .build-card-inner {
+  transform: rotateY(180deg);
+}
+
+.build-card-front,
+.build-card-back {
+  width: 100%;
+  min-height: 280px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Important: both sides must occupy the same exact position */
+.build-card-front {
+  position: absolute;
+  inset: 0;
+}
+
+.build-card-back {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(180deg);
+  overflow-y: auto;
+}
+
+/* Card size stays fixed so it does not jump on flip */
+.community-build-card {
+  background: rgba(36, 28, 73, 0.92);
+  border: 1px solid rgba(165, 82, 255, 0.32);
+  border-radius: 16px;
+  padding: 28px 170px 28px 28px;
+  min-height: 280px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.16);
+}
+
+/* Buttons stay fixed on top of the shell */
+.build-card-action-stack {
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.save-build-btn {
+  position: static;
+  width: 96px;
+  border: 1px solid rgba(250, 204, 21, 0.45);
+  border-radius: 12px;
+  background: rgba(113, 63, 18, 0.88);
+  color: #fef3c7;
+  font-size: 0.9rem;
+  font-weight: 900;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.save-build-btn:hover {
+  background: rgba(161, 98, 7, 0.95);
+}
+
+.vote-box {
+  position: static;
+  width: 96px;
+  height: 96px;
+  border: none;
+  border-radius: 14px;
+  background: rgba(92, 24, 145, 0.95);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  cursor: pointer;
+}
+
+.vote-box:hover {
+  background: rgba(120, 35, 190, 0.95);
+}
+
+.vote-arrow {
+  font-size: 2rem;
+  line-height: 1;
+  color: #d38bff;
+}
+
+.vote-count {
+  font-size: 1.35rem;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .build-card-shell {
+    min-height: auto;
+  }
+
+  .build-card-flip,
+  .build-card-inner {
+    min-height: auto;
+  }
+
+  .build-card-flip:hover .build-card-inner {
+    transform: none;
+  }
+
+  .build-card-inner {
+    transform: none;
+  }
+
+  .build-card-front {
+    position: relative;
+    inset: auto;
+  }
+
+  .build-card-back {
+    display: none;
+  }
+
+  .community-build-card {
+    padding: 24px;
+    min-height: auto;
+  }
+
+  .build-card-action-stack {
+    position: static;
+    margin-top: 14px;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .save-build-btn,
+  .vote-box {
+    flex: 1;
+    width: auto;
+    height: 64px;
+  }
+
+  .vote-box {
+    flex-direction: row;
+  }
+}
+
+/* ---------- Admin Page ---------- */
+
+.admin-page {
+  min-height: 100vh;
+  background: #0b1020;
+  color: white;
+  padding: 40px 0;
+}
+
+.admin-header {
+  width: min(92%, 1200px);
+  margin: 0 auto 32px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.admin-header h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0;
+  background: linear-gradient(135deg, #60a5fa, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.admin-header p {
+  margin: 10px 0 0;
+  color: #cbd5e1;
+  font-size: 1rem;
+}
+
+.admin-logout-btn {
+  border: none;
+  border-radius: 14px;
+  padding: 12px 20px;
+  background: #1f2937;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.admin-logout-btn:hover {
+  background: #374151;
+  transform: translateY(-2px);
+}
+
+.admin-message {
+  width: min(92%, 1200px);
+  margin: 0 auto 24px auto;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: rgba(250, 204, 21, 0.12);
+  border: 1px solid rgba(250, 204, 21, 0.35);
+  color: #fde68a;
+  font-weight: 700;
+}
+
+.admin-build-list {
+  width: min(92%, 1200px);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.admin-build-card {
+  background: linear-gradient(180deg, #111827, #0f172a);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 22px;
+  padding: 24px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+}
+
+.admin-build-card h2 {
+  margin: 0 0 16px;
+  font-size: 1.4rem;
+  color: #93c5fd;
+}
+
+.admin-build-card p {
+  color: #d1d5db;
+  line-height: 1.5;
+  margin: 8px 0;
+}
+
+.admin-build-card strong {
+  color: #ffffff;
+}
+
+.admin-delete-btn {
+  width: 100%;
+  margin-top: 18px;
+  border: none;
+  border-radius: 14px;
+  padding: 12px 16px;
+  background: #dc2626;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.admin-delete-btn:hover {
+  background: #ef4444;
+  transform: translateY(-2px);
+}
+
+/* admin logout button */
+
+.logout-btn {
+  background: #dc2626 !important;
+  color: white !important;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-weight: 800;
+}
+
+.logout-btn:hover {
+  background: #ef4444 !important;
 }

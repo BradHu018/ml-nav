@@ -36,9 +36,9 @@ export default function HeroStats() {
   }
 
   return (
-    <div>
+    <div className="table-container">
       <h2>Hero Statistics</h2>
-
+    
       <table>
         <thead>
           <tr>

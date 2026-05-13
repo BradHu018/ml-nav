@@ -1,4 +1,4 @@
-function BuildCard({ build, rank, onUpvote }) {
+function BuildCard({ build, rank, onUpvote, onSave }) {
   function getItemImage(itemName) {
     const fileName = itemName.replaceAll("'", "").replaceAll(" ", "_");
     return `/items/${fileName}.webp`;
@@ -15,110 +15,129 @@ function BuildCard({ build, rank, onUpvote }) {
   }
 
   return (
-    <div className="build-card-flip">
-      <div className="build-card-inner">
-        {/* Front side */}
-        <div className="community-build-card build-card-front">
-          {rank && <div className="rank-badge">#{rank}</div>}
+    <div className="build-card-shell">
+      <div className="build-card-flip">
+        <div className="build-card-inner">
+          {/* Front side */}
+          <div className="community-build-card build-card-front">
+            {rank && <div className="rank-badge">#{rank}</div>}
 
-          <div className="hero-name">{build.hero_name}</div>
+            <div className="hero-name">{build.hero_name}</div>
 
-          <h3 className="build-name">{build.build_name}</h3>
+            <h3 className="build-name">{build.build_name}</h3>
 
-          <div className="build-author">
-            by <span>{build.username || `User #${build.user_id}`}</span>
+            <div className="build-author">
+              by <span>{build.username || `User #${build.user_id}`}</span>
+            </div>
+
+            <div className="item-icons">
+              {build.build_items.map((item, index) => (
+                <div className="item-icon-box" key={`${item}-${index}`}>
+                  <img
+                    src={getItemImage(item)}
+                    alt={item}
+                    title={item}
+                    className="item-icon-img"
+                    onError={(e) => {
+                      e.currentTarget.style.display = "none";
+                      e.currentTarget.parentElement.textContent = item;
+                    }}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
 
-          <div className="item-icons">
-            {build.build_items.map((item, index) => (
-              <div className="item-icon-box" key={`${item}-${index}`}>
+          {/* Back side */}
+          <div className="community-build-card build-card-back">
+            <h3 className="build-name">{build.build_name}</h3>
+
+            <p className="build-description back-description">
+              {build.description}
+            </p>
+
+            <div className="build-back-icons">
+              <div className="build-back-icon-card">
                 <img
-                  src={getItemImage(item)}
-                  alt={item}
-                  title={item}
-                  className="item-icon-img"
+                  src={getEmblemImage(build.emblem)}
+                  alt={build.emblem}
+                  title={build.emblem}
+                  className="build-back-icon-img"
                   onError={(e) => {
                     e.currentTarget.style.display = "none";
-                    e.currentTarget.parentElement.textContent = item;
+                    e.currentTarget.parentElement.querySelector(
+                      ".build-back-icon-fallback"
+                    ).style.display = "block";
                   }}
                 />
-              </div>
-            ))}
-          </div>
 
+                <span className="build-back-icon-fallback">
+                  {build.emblem}
+                </span>
+                <p>Emblem</p>
+              </div>
+
+              <div className="build-back-icon-card">
+                <img
+                  src={getSpellImage(build.battle_spell)}
+                  alt={build.battle_spell}
+                  title={build.battle_spell}
+                  className="build-back-icon-img"
+                  onError={(e) => {
+                    e.currentTarget.style.display = "none";
+                    e.currentTarget.parentElement.querySelector(
+                      ".build-back-icon-fallback"
+                    ).style.display = "block";
+                  }}
+                />
+
+                <span className="build-back-icon-fallback">
+                  {build.battle_spell}
+                </span>
+                <p>Battle Spell</p>
+              </div>
+            </div>
+
+            <div className="back-items-list">
+              {build.build_items.map((item, index) => (
+                <p key={`${item}-${index}`}>
+                  <strong>{index + 1}.</strong> {item}
+                </p>
+              ))}
+            </div>
+
+            <p className="hover-hint">Hover away to return</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="build-card-action-stack">
+        {onSave && (
           <button
-            className="vote-box"
+            className="save-build-btn"
             type="button"
             onClick={(e) => {
               e.stopPropagation();
-              onUpvote && onUpvote(build.id);
+              onSave(build.id);
             }}
           >
-            <span className="vote-arrow">↑</span>
-            <span className="vote-count">
-              {Number(build.upvotes).toLocaleString()}
-            </span>
+            ☆ Save
           </button>
-        </div>
+        )}
 
-        {/* Back side */}
-        <div className="community-build-card build-card-back">
-          <h3 className="build-name">{build.build_name}</h3>
-
-          <p className="build-description back-description">
-            {build.description}
-          </p>
-
-          <div className="build-back-icons">
-            <div className="build-back-icon-card">
-              <img
-                src={getEmblemImage(build.emblem)}
-                alt={build.emblem}
-                title={build.emblem}
-                className="build-back-icon-img"
-                onError={(e) => {
-                  e.currentTarget.style.display = "none";
-                  e.currentTarget.parentElement.querySelector(
-                    ".build-back-icon-fallback"
-                  ).style.display = "block";
-                }}
-              />
-
-              <span className="build-back-icon-fallback">{build.emblem}</span>
-              <p>Emblem</p>
-            </div>
-
-            <div className="build-back-icon-card">
-              <img
-                src={getSpellImage(build.battle_spell)}
-                alt={build.battle_spell}
-                title={build.battle_spell}
-                className="build-back-icon-img"
-                onError={(e) => {
-                  e.currentTarget.style.display = "none";
-                  e.currentTarget.parentElement.querySelector(
-                    ".build-back-icon-fallback"
-                  ).style.display = "block";
-                }}
-              />
-
-              <span className="build-back-icon-fallback">
-                {build.battle_spell}
-              </span>
-              <p>Battle Spell</p>
-            </div>
-          </div>
-
-          <div className="back-items-list">
-            {build.build_items.map((item, index) => (
-              <p key={`${item}-${index}`}>
-                <strong>{index + 1}.</strong> {item}
-              </p>
-            ))}
-          </div>
-
-          <p className="hover-hint">Hover away to return</p>
-        </div>
+        <button
+          className="vote-box"
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            onUpvote && onUpvote(build.id);
+          }}
+        >
+          <span className="vote-arrow">↑</span>
+          <span className="vote-count">
+            {Number(build.upvotes).toLocaleString()}
+          </span>
+        </button>
       </div>
     </div>
   );

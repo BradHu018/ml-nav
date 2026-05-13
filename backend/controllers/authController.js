@@ -81,6 +81,7 @@ async function login(req, res) {
       {
         id: user.id,
         username: user.username,
+        role: user.role,
       },
       process.env.JWT_SECRET,
       {
@@ -95,6 +96,7 @@ async function login(req, res) {
         id: user.id,
         username: user.username,
         email: user.email,
+        role: user.role,
       },
     });
   } catch (error) {

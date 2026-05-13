@@ -3,10 +3,11 @@ function Home() {
     <section id="main-page">
       <div className="intro">
         <div className="grid-item">Learn by statistics to improve your game.</div>
-        <div className="grid-item">Find the next meta hero with tier lists and recommendations.</div>
-        <div className="grid-item">Tips and tricks for specific roles.</div>
-        <div className="grid-item">Find the best build for your favorite hero.</div>
-        <div className="grid-item">Sign up to get the newest and improved experience.</div>
+        <div className="grid-item">Upload your build and share your knowledge on the game.</div>
+        <div className="grid-item">Save builds that you may use in the future.</div>
+        <div className="grid-item">Improve your game and help others do the same.</div>
+        <div className="grid-item">Find the meta heros with hero tier list.</div>
+        <div className="grid-item">View tips and tricks </div>
       </div>
     </section>
   );

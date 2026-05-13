@@ -50,6 +50,9 @@ function Navbar({ setPage }) {
         </li>
 
         <li>
+          <button onClick={() => goToPage("saved_builds")}>Saved Builds</button>
+        </li>
+        <li>
           <button onClick={() => goToPage("tips")}>Tips</button>
         </li>
       </ul>

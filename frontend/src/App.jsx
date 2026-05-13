@@ -8,19 +8,42 @@ import Tips from "./components/Tips";
 import Navbar from "./components/Navbar";
 import CommunityBuildsPage from "./pages/CommunityBuildsPage";
 import MyBuildsPage from "./pages/MyBuildsPage";
+import SavedBuildsPage from "./pages/SavedBuildsPage";
+import AdminPage from "./pages/AdminPage";
 import "./App.css";
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const storedToken = localStorage.getItem("token");
+  const storedUser = localStorage.getItem("user");
+
+  const [isLoggedIn, setIsLoggedIn] = useState(!!storedToken);
+  const [user, setUser] = useState(
+    storedUser ? JSON.parse(storedUser) : null
+  );
+
   const [page, setPage] = useState("home");
 
-  function handleAuthSuccess() {
+  function handleAuthSuccess(loggedInUser) {
+    setUser(loggedInUser);
     setIsLoggedIn(true);
+    setPage("home");
+  }
+
+  function handleLogout() {
+    localStorage.removeItem("token");
+    localStorage.removeItem("user");
+
+    setUser(null);
+    setIsLoggedIn(false);
     setPage("home");
   }
 
   if (!isLoggedIn) {
     return <Auth onAuthSuccess={handleAuthSuccess} />;
+  }
+
+  if (user?.role === "admin") {
+    return <AdminPage handleLogout={handleLogout} />;
   }
 
   let currentPage;
@@ -38,18 +61,17 @@ function App() {
   } else if (page === "tips") {
     currentPage = <Tips />;
   } else if (page === "my_builds") {
-    currentPage = <MyBuildsPage />
-  } 
-  else {
+    currentPage = <MyBuildsPage />;
+  } else if (page === "saved_builds") {
+    currentPage = <SavedBuildsPage />;
+  } else {
     currentPage = <Home />;
   }
 
   return (
     <>
-      <Navbar setPage={setPage} />
-      <main>
-        {currentPage}
-      </main>
+      <Navbar setPage={setPage} handleLogout={handleLogout} />
+      <main>{currentPage}</main>
     </>
   );
 }

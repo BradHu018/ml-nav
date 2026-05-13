@@ -33,8 +33,9 @@ function Login({ onAuthSuccess }) {
         setMessage(data.message || "Logged in successfully");
 
         localStorage.setItem("token", data.token);
+        localStorage.setItem("user", JSON.stringify(data.user));
         if (onAuthSuccess) {
-          onAuthSuccess(data);
+          onAuthSuccess(data.user);
         }
       } else {
         setError(data.message || "Login failed");
