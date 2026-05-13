@@ -102,3 +102,109 @@ ml-navigator/
 │   ├── server.js
 │   ├── .env
 │   └── package.json
+
+
+Database Design
+
+The backend uses a relational MySQL schema.
+
+users
+
+Stores registered user accounts.
+
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+saved_builds
+
+Stores user-created builds.
+
+CREATE TABLE saved_builds (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT NOT NULL,
+  hero_name VARCHAR(255) NOT NULL,
+  build_name VARCHAR(255) NOT NULL,
+  description TEXT NOT NULL,
+  emblem VARCHAR(255) NOT NULL,
+  battle_spell VARCHAR(255) NOT NULL,
+  upvotes INT DEFAULT 0,
+  downvotes INT DEFAULT 0,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+build_items
+
+Stores the 6 equipment items for each build.
+
+CREATE TABLE build_items (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  build_id INT NOT NULL,
+  slot_number INT NOT NULL,
+  item_name VARCHAR(255) NOT NULL,
+  FOREIGN KEY (build_id) REFERENCES saved_builds(id) ON DELETE CASCADE
+);
+API Overview
+Auth Routes
+POST /api/auth/signup
+POST /api/auth/login
+Build Routes
+POST   /api/builds
+GET    /api/builds/my-builds
+GET    /api/builds/community
+GET    /api/builds/search?hero=HeroName
+PUT    /api/builds/:id
+DELETE /api/builds/:id
+
+Protected routes require:
+
+Authorization: Bearer <jwt_token>
+Example Build Request
+{
+  "hero_name": "Alucard",
+  "build_name": "Lifesteal Burst",
+  "description": "High damage lifesteal build for jungle Alucard",
+  "emblem": "Fighter",
+  "battle_spell": "Retribution",
+  "build_items": [
+    "Tough Boots",
+    "War Axe",
+    "Endless Battle",
+    "Blade of Despair",
+    "Queen's Wings",
+    "Immortality"
+  ]
+}
+Setup Instructions
+1. Clone the repository
+git clone <your-repo-url>
+cd ml-navigator
+2. Install backend dependencies
+cd backend
+npm install
+3. Create backend .env
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_mysql_password
+DB_NAME=ml_navigator
+DB_PORT=3306
+PORT=5000
+JWT_SECRET=your_jwt_secret
+4. Start the backend
+npm run dev
+
+The backend runs on:
+
+http://localhost:5000
+5. Install frontend dependencies
+cd ../frontend
+npm install
+6. Start the frontend
+npm run dev
+
+The frontend runs on:
+
+http://localhost:5173
