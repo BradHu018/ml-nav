@@ -103,15 +103,13 @@ ml-navigator/
 │   ├── .env
 │   └── package.json
 
-
-Database Design
-
+## Database Design
 The backend uses a relational MySQL schema.
 
-users
-
+### `users`
 Stores registered user accounts.
 
+```sql
 CREATE TABLE users (
   id INT AUTO_INCREMENT PRIMARY KEY,
   username VARCHAR(255) NOT NULL,
@@ -119,10 +117,10 @@ CREATE TABLE users (
   password_hash VARCHAR(255) NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-saved_builds
 
-Stores user-created builds.
-
+### `saved_builds`
+store user-created builds
+```sql
 CREATE TABLE saved_builds (
   id INT AUTO_INCREMENT PRIMARY KEY,
   user_id INT NOT NULL,
@@ -136,10 +134,10 @@ CREATE TABLE saved_builds (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
-build_items
 
-Stores the 6 equipment items for each build.
-
+### `build_items`
+store the 6 equipment items for each build
+```sql
 CREATE TABLE build_items (
   id INT AUTO_INCREMENT PRIMARY KEY,
   build_id INT NOT NULL,
@@ -147,10 +145,12 @@ CREATE TABLE build_items (
   item_name VARCHAR(255) NOT NULL,
   FOREIGN KEY (build_id) REFERENCES saved_builds(id) ON DELETE CASCADE
 );
+
 API Overview
 Auth Routes
 POST /api/auth/signup
 POST /api/auth/login
+
 Build Routes
 POST   /api/builds
 GET    /api/builds/my-builds
@@ -159,9 +159,6 @@ GET    /api/builds/search?hero=HeroName
 PUT    /api/builds/:id
 DELETE /api/builds/:id
 
-Protected routes require:
-
-Authorization: Bearer <jwt_token>
 Example Build Request
 {
   "hero_name": "Alucard",
@@ -178,6 +175,7 @@ Example Build Request
     "Immortality"
   ]
 }
+
 Setup Instructions
 1. Clone the repository
 git clone <your-repo-url>
@@ -208,3 +206,4 @@ npm run dev
 The frontend runs on:
 
 http://localhost:5173
+
