@@ -14,6 +14,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/api/health", (req, res) => {
+  res.json({ message: "Backend is working" });
+});
+
 app.use("/api/auth", authRoutes);
 app.use("/api/builds", buildRoutes);
 app.use("/api/favorites", favoriteRoutes);
