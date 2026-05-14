@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const equipment = require("../src/data/equipment.json");
+const equipment = require("../frontend/src/data/equipment.json");
 
 const outputDir = path.join(process.cwd(), "public", "items");
 fs.mkdirSync(outputDir, { recursive: true });

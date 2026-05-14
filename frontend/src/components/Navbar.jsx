@@ -30,6 +30,10 @@ function Navbar({ setPage }) {
         </li>
 
         <li>
+          <button onClick={() => setPage("tier_list")}>Tier List</button>
+        </li>
+
+        <li>
           <button onClick={() => goToPage("emblems")}>Emblems</button>
         </li>
 
