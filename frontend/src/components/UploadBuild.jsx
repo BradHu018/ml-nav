@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = `${import.meta.env.VITE_API_URL}/api`;
 
 function UploadBuild({ onBuildCreated }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +8,6 @@ function UploadBuild({ onBuildCreated }) {
   const [formData, setFormData] = useState({
     hero_name: "",
     build_name: "",
-    username: "",
     description: "",
     emblem: "",
     battle_spell: "",
@@ -35,11 +34,10 @@ function UploadBuild({ onBuildCreated }) {
     setBuildItems(updatedItems);
   }
 
-  function resetForm() {
+  function resetFormFields() {
     setFormData({
       hero_name: "",
       build_name: "",
-      username: "",
       description: "",
       emblem: "",
       battle_spell: "",
@@ -47,8 +45,6 @@ function UploadBuild({ onBuildCreated }) {
     });
 
     setBuildItems(["", "", "", "", "", ""]);
-    setMessage("");
-    setError("");
   }
 
   async function handleSubmit(e) {
@@ -66,6 +62,11 @@ function UploadBuild({ onBuildCreated }) {
 
     const token = localStorage.getItem("token");
 
+    if (!token) {
+      setError("You must be logged in to upload a build.");
+      return;
+    }
+
     setIsSubmitting(true);
 
     try {
@@ -73,12 +74,11 @@ function UploadBuild({ onBuildCreated }) {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: token ? `Bearer ${token}` : "",
+          Authorization: `Bearer ${token}`,
         },
         body: JSON.stringify({
           hero_name: formData.hero_name,
           build_name: formData.build_name,
-          username: formData.username,
           description: formData.description,
           emblem: formData.emblem,
           battle_spell: formData.battle_spell,
@@ -94,13 +94,13 @@ function UploadBuild({ onBuildCreated }) {
         return;
       }
 
+      resetFormFields();
+
       setMessage(
         formData.is_public
           ? "Build uploaded to community builds!"
           : "Build saved privately."
       );
-
-      resetForm();
 
       if (onBuildCreated) {
         onBuildCreated();
@@ -130,7 +130,7 @@ function UploadBuild({ onBuildCreated }) {
             <div className="build-modal-header">
               <h2>Upload Your Build</h2>
 
-              <button className="close-btn" onClick={closeModal}>
+              <button type="button" className="close-btn" onClick={closeModal}>
                 ×
               </button>
             </div>
@@ -155,18 +155,6 @@ function UploadBuild({ onBuildCreated }) {
                   name="build_name"
                   placeholder="e.g., Cable Queen Assassin"
                   value={formData.build_name}
-                  onChange={handleChange}
-                  required
-                />
-              </label>
-
-              <label>
-                Your Username *
-                <input
-                  type="text"
-                  name="username"
-                  placeholder="e.g., ProGamer99"
-                  value={formData.username}
                   onChange={handleChange}
                   required
                 />
@@ -257,7 +245,11 @@ function UploadBuild({ onBuildCreated }) {
                   Cancel
                 </button>
 
-                <button type="submit" className="primary-btn">
+                <button
+                  type="submit"
+                  className="primary-btn"
+                  disabled={isSubmitting}
+                >
                   {isSubmitting ? "Submitting..." : "Submit Build"}
                 </button>
               </div>

@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import BuildCard from "./BuildCard";
 
-const API_URL = "http://localhost:5000/api/builds";
-const FAVORITES_API_URL = "http://localhost:5000/api/favorites";
+const API_BASE = import.meta.env.VITE_API_URL;
+const API_URL = `${API_BASE}/api/builds`;
+const FAVORITES_API_URL = `${API_BASE}/api/favorites`;
 
 const starterBuilds = [
   {

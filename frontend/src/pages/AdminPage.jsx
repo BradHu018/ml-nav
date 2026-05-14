@@ -4,11 +4,13 @@ function AdminPage({ handleLogout }) {
   const [builds, setBuilds] = useState([]);
   const [message, setMessage] = useState("");
 
+  const API_URL = import.meta.env.VITE_API_URL;
+
   async function fetchBuilds() {
     const token = localStorage.getItem("token");
 
     try {
-      const response = await fetch("http://localhost:5000/api/admin/builds", {
+      const response = await fetch(`${API_URL}/api/admin/builds`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -19,7 +21,7 @@ function AdminPage({ handleLogout }) {
       if (response.ok) {
         setBuilds(data.builds);
       } else {
-        setMessage(data.message);
+        setMessage(data.message || "Failed to fetch builds");
       }
     } catch (error) {
       setMessage("Could not reach server");
@@ -30,15 +32,12 @@ function AdminPage({ handleLogout }) {
     const token = localStorage.getItem("token");
 
     try {
-      const response = await fetch(
-        `http://localhost:5000/api/admin/builds/${buildId}`,
-        {
-          method: "DELETE",
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        }
-      );
+      const response = await fetch(`${API_URL}/api/admin/builds/${buildId}`, {
+        method: "DELETE",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
 
       const data = await response.json();
 
@@ -46,7 +45,7 @@ function AdminPage({ handleLogout }) {
         setMessage("Build deleted");
         fetchBuilds();
       } else {
-        setMessage(data.message);
+        setMessage(data.message || "Failed to delete build");
       }
     } catch (error) {
       setMessage("Could not reach server");

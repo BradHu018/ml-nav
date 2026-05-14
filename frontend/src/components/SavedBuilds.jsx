@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import BuildCard from "./BuildCard";
 
-const FAVORITES_API_URL = "http://localhost:5000/api/favorites";
+const FAVORITES_API_URL = `${import.meta.env.VITE_API_URL}/api/favorites`;
 
 function SavedBuilds() {
   const [savedBuilds, setSavedBuilds] = useState([]);

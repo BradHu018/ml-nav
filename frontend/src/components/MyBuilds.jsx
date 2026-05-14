@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import BuildCard from "./BuildCard";
 
-const API_URL = "http://localhost:5000/api/builds";
+const API_URL = `${import.meta.env.VITE_API_URL}/api/builds`;
 
 function MyBuilds() {
   const [builds, setBuilds] = useState([]);
