@@ -43,6 +43,8 @@ function Signup({ onAuthSuccess }) {
       if (response.ok) {
         setMessage(data.message || "Account created successfully");
 
+        localStorage.setItem("token", data.token);
+        localStorage.setItem("user", JSON.stringify(data.user));
         if (onAuthSuccess) {
           onAuthSuccess(data);
         }

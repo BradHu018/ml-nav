@@ -3,6 +3,20 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const db = require("../config/db");
 
+function createToken(user) {
+  return jwt.sign(
+    {
+      id: user.id,
+      username: user.username,
+      role: user.role || "user",
+    },
+    process.env.JWT_SECRET,
+    {
+      expiresIn: "1d",
+    }
+  );
+}
+
 async function signup(req, res) {
   try {
     const { username, email, password } = req.body;
@@ -31,13 +45,24 @@ async function signup(req, res) {
       [username, email, passwordHash]
     );
 
-    res.status(201).json({
-      message: "User created successfully",
-      userId: result.insertId,
+    const newUser = {
+      id: result.insertId,
+      username,
+      email,
+      role: "user",
+    };
+
+    const token = createToken(newUser);
+
+    return res.status(201).json({
+      message: "Account created and logged in successfully",
+      token,
+      user: newUser,
     });
   } catch (error) {
     console.error("Signup error:", error);
-    res.status(500).json({
+
+    return res.status(500).json({
       message: "Server error during signup",
     });
   }
@@ -53,10 +78,9 @@ async function login(req, res) {
       });
     }
 
-    const [users] = await db.query(
-      "SELECT * FROM users WHERE email = ?",
-      [email]
-    );
+    const [users] = await db.query("SELECT * FROM users WHERE email = ?", [
+      email,
+    ]);
 
     if (users.length === 0) {
       return res.status(400).json({
@@ -66,10 +90,7 @@ async function login(req, res) {
 
     const user = users[0];
 
-    const passwordMatches = await bcrypt.compare(
-      password,
-      user.password_hash
-    );
+    const passwordMatches = await bcrypt.compare(password, user.password_hash);
 
     if (!passwordMatches) {
       return res.status(400).json({
@@ -77,31 +98,24 @@ async function login(req, res) {
       });
     }
 
-    const token = jwt.sign(
-      {
-        id: user.id,
-        username: user.username,
-        role: user.role,
-      },
-      process.env.JWT_SECRET,
-      {
-        expiresIn: "1d",
-      }
-    );
+    const loggedInUser = {
+      id: user.id,
+      username: user.username,
+      email: user.email,
+      role: user.role || "user",
+    };
 
-    res.json({
+    const token = createToken(loggedInUser);
+
+    return res.json({
       message: "Login successful",
       token,
-      user: {
-        id: user.id,
-        username: user.username,
-        email: user.email,
-        role: user.role,
-      },
+      user: loggedInUser,
     });
   } catch (error) {
     console.error("Login error:", error);
-    res.status(500).json({
+
+    return res.status(500).json({
       message: "Server error during login",
     });
   }
