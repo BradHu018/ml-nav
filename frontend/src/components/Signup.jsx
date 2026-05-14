@@ -43,15 +43,22 @@ function Signup({ onAuthSuccess }) {
       if (response.ok) {
         setMessage(data.message || "Account created successfully");
 
-        localStorage.setItem("token", data.token);
-        localStorage.setItem("user", JSON.stringify(data.user));
+        if (data.token) {
+          localStorage.setItem("token", data.token);
+        }
+
+        if (data.user) {
+          localStorage.setItem("user", JSON.stringify(data.user));
+        }
+
         if (onAuthSuccess) {
-          onAuthSuccess(data);
+          onAuthSuccess(data.user);
         }
       } else {
         setError(data.message || "Signup failed");
       }
-    } catch {
+    } catch (err) {
+      console.error("Signup error:", err);
       setError("Could not reach server");
     }
   }
