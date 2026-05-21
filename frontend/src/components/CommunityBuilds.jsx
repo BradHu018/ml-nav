@@ -36,7 +36,7 @@ function CommunityBuilds() {
   }, []);
 
   
-  const displayBuilds = allBuilds
+  const displayBuilds = backendBuilds
     .filter((build) => {
       const searchText = search.trim().toLowerCase();
 
