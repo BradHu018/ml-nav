@@ -43,9 +43,6 @@ function Signup({ onAuthSuccess }) {
 
       if (response.ok) {
 
-        track("Signup Success", {
-          username: formData.username,
-        });
         setMessage(data.message || "Account created successfully");
 
         if (data.token) {

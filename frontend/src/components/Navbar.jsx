@@ -1,15 +1,21 @@
 import { useState } from "react";
 import { track } from "@vercel/analytics";
 
-function Navbar({ setPage }) {
+function Navbar({ setPage, handleLogout }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   function goToPage(pageName) {
-    track("Navigate", {
+    track("Navbar Click", {
       page: pageName,
     });
 
     setPage(pageName);
+    setMenuOpen(false);
+  }
+
+  function logoutUser() {
+    track("Logout");
+    handleLogout();
     setMenuOpen(false);
   }
 
@@ -20,13 +26,7 @@ function Navbar({ setPage }) {
       <button
         className="hamburger-btn"
         type="button"
-        onClick={() => {
-          track("Toggle Mobile Menu", {
-            open: !menuOpen,
-          });
-
-          setMenuOpen(!menuOpen);
-        }}
+        onClick={() => setMenuOpen(!menuOpen)}
       >
         ☰
       </button>
@@ -65,11 +65,15 @@ function Navbar({ setPage }) {
         </li>
 
         <li>
-          <button onClick={() => goToPage("saved_builds")}>Saved Builds</button>
+          <button onClick={() => goToPage("saved_builds")}>
+            Saved Builds
+          </button>
         </li>
 
         <li>
-          <button onClick={() => goToPage("tips")}>Tips</button>
+          <button className="logout-btn" onClick={logoutUser}>
+            Logout
+          </button>
         </li>
       </ul>
     </nav>
