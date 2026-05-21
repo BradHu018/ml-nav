@@ -12,6 +12,7 @@ import SavedBuildsPage from "./pages/SavedBuildsPage";
 import AdminPage from "./pages/AdminPage";
 import TierListPage from "./pages/TierListPage";
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const storedToken = localStorage.getItem("token");
@@ -76,6 +77,7 @@ function App() {
     <>
       <Navbar setPage={setPage} handleLogout={handleLogout} />
       <main>{currentPage}</main>
+      <Analytics />
     </>
   );
 }
