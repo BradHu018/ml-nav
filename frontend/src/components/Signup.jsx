@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { track } from "@vercel/analytics";
 
 function Signup({ onAuthSuccess }) {
   const [username, setUsername] = useState("");
@@ -41,6 +42,10 @@ function Signup({ onAuthSuccess }) {
       const data = await response.json();
 
       if (response.ok) {
+
+        track("Signup Success", {
+          username: formData.username,
+        });
         setMessage(data.message || "Account created successfully");
 
         if (data.token) {

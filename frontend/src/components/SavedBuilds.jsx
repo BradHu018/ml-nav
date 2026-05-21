@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import BuildCard from "./BuildCard";
+import { track } from "@vercel/analytics";
 
 const FAVORITES_API_URL = `${import.meta.env.VITE_API_URL}/api/favorites`;
 
@@ -10,6 +11,7 @@ function SavedBuilds() {
   const [error, setError] = useState("");
 
   useEffect(() => {
+    track("View Saved Builds Page");
     fetchSavedBuilds();
   }, []);
 
@@ -75,6 +77,9 @@ function SavedBuilds() {
 
       setSavedBuilds((prev) => prev.filter((build) => build.id !== buildId));
       setMessage("Build removed from saved builds.");
+      track("Remove Saved Build", {
+        buildId: buildId,
+      });
     } catch (err) {
       setError(err.message);
     } finally {

@@ -1,9 +1,14 @@
 import { useState } from "react";
+import { track } from "@vercel/analytics";
 
 function Navbar({ setPage }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   function goToPage(pageName) {
+    track("Navigate", {
+      page: pageName,
+    });
+
     setPage(pageName);
     setMenuOpen(false);
   }
@@ -15,7 +20,13 @@ function Navbar({ setPage }) {
       <button
         className="hamburger-btn"
         type="button"
-        onClick={() => setMenuOpen(!menuOpen)}
+        onClick={() => {
+          track("Toggle Mobile Menu", {
+            open: !menuOpen,
+          });
+
+          setMenuOpen(!menuOpen);
+        }}
       >
         ☰
       </button>
@@ -30,7 +41,7 @@ function Navbar({ setPage }) {
         </li>
 
         <li>
-          <button onClick={() => setPage("tier_list")}>Tier List</button>
+          <button onClick={() => goToPage("tier_list")}>Tier List</button>
         </li>
 
         <li>
@@ -56,6 +67,7 @@ function Navbar({ setPage }) {
         <li>
           <button onClick={() => goToPage("saved_builds")}>Saved Builds</button>
         </li>
+
         <li>
           <button onClick={() => goToPage("tips")}>Tips</button>
         </li>

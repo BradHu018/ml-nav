@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import BuildCard from "./BuildCard";
+import { track } from "@vercel/analytics";
 
 const API_URL = `${import.meta.env.VITE_API_URL}/api/builds`;
 
@@ -65,6 +66,13 @@ function MyBuilds() {
   }
 
   function openEditModal(build) {
+
+    track("Open Edit Build Modal", {
+      buildId: build.id,
+      hero: build.hero_name,
+      buildName: build.build_name,
+      isPublic: Boolean(build.is_public),
+    });
     setEditingBuild(build);
     setError("");
     setMessage("");
@@ -86,6 +94,9 @@ function MyBuilds() {
   }
 
   function closeEditModal() {
+
+    track("Close Edit Build Modal");
+
     setEditingBuild(null);
 
     setEditFormData({
@@ -123,6 +134,11 @@ function MyBuilds() {
     const token = localStorage.getItem("token");
 
     if (!token) {
+
+      track("Update Build Blocked", {
+        reason: "not_logged_in",
+        buildId: editingBuild.id,
+      });
       setError("You need to log in before editing a build.");
       return;
     }
@@ -167,6 +183,14 @@ function MyBuilds() {
       }
 
       setMessage("Build updated successfully.");
+
+      track("Update Build Success", {
+        buildId: editingBuild.id,
+        oldHero: editingBuild.hero_name,
+        newHero: updatedBuild.hero_name,
+        buildName: updatedBuild.build_name,
+        isPublic: updatedBuild.is_public,
+      });
       closeEditModal();
       fetchMyBuilds();
     } catch (err) {
@@ -182,6 +206,10 @@ function MyBuilds() {
     );
 
     if (!confirmed) {
+
+      track("Delete Build Cancelled", {
+        buildId,
+      });
       return;
     }
 
@@ -212,6 +240,12 @@ function MyBuilds() {
 
       setBuilds((prev) => prev.filter((build) => build.id !== buildId));
       setMessage("Build deleted successfully.");
+
+      track("Delete Build Success", {
+        buildId,
+        hero: deletedBuild?.hero_name || "unknown",
+        buildName: deletedBuild?.build_name || "unknown",
+      });
     } catch (err) {
       setError(err.message);
     } finally {
@@ -222,8 +256,14 @@ function MyBuilds() {
   return (
     <section className="my-builds-section">
       <div className="my-builds-actions">
-        <button className="refresh-builds-btn" onClick={fetchMyBuilds}>
-          Refresh Builds
+        <button 
+          className="refresh-builds-btn" 
+          onClick={() => {
+
+            track("Refresh My Builds");
+            fetchMyBuilds();
+          }}
+        >
         </button>
       </div>
 

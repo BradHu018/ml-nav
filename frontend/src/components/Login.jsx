@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { track } from "@vercel/analytics";
+
 function Login({ onAuthSuccess }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -32,6 +34,9 @@ function Login({ onAuthSuccess }) {
       const data = await response.json();
 
       if (response.ok) {
+
+        track("Login Success");
+
         setMessage(data.message || "Logged in successfully");
 
         localStorage.setItem("token", data.token);

@@ -1,3 +1,5 @@
+import { track } from "@vercel/analytics";
+
 function BuildCard({ build, rank, onUpvote, onSave }) {
   function getItemImage(itemName) {
     const fileName = itemName.replaceAll("'", "").replaceAll(" ", "_");
@@ -118,6 +120,12 @@ function BuildCard({ build, rank, onUpvote, onSave }) {
             type="button"
             onClick={(e) => {
               e.stopPropagation();
+
+              track("Click Save Build", {
+                buildId: build.id,
+                hero: build.hero_name,
+                buildName: build.build_name,
+              });
               onSave(build.id);
             }}
           >
@@ -130,6 +138,12 @@ function BuildCard({ build, rank, onUpvote, onSave }) {
           type="button"
           onClick={(e) => {
             e.stopPropagation();
+
+            track("Click Upvote Build", {
+              buildId: build.id,
+              hero: build.hero_name,
+              buildName: build.build_name,
+            });
             onUpvote && onUpvote(build.id);
           }}
         >

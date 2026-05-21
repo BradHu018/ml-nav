@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import BuildCard from "./BuildCard";
+import { track } from "@vercel/analytics";
 
 const API_BASE = import.meta.env.VITE_API_URL;
 const API_URL = `${API_BASE}/api/builds`;
@@ -117,6 +118,7 @@ function CommunityBuilds() {
   });
 
   useEffect(() => {
+    track("View Community Builds Page");
     fetchTopBuilds();
   }, []);
 
@@ -163,6 +165,10 @@ function CommunityBuilds() {
       fetchTopBuilds();
       return;
     }
+
+    track ("Search Community Builds", {
+      hero: trimmedHero,
+    })
 
     setLoading(true);
     setError("");
@@ -376,7 +382,10 @@ function CommunityBuilds() {
     <>
       <button
         className="upload-build-btn"
-        onClick={() => setShowUploadForm(true)}
+        onClick={() => {
+          track("Open Build Upload Form");
+          setShowUploadForm(true)
+        }}
       >
         <span>+</span>
         Upload Your Build
@@ -397,6 +406,7 @@ function CommunityBuilds() {
         <button
           className="back-builds-btn"
           onClick={() => {
+            track("Back to Top Builds");
             setSearch("");
             fetchTopBuilds();
           }}
@@ -443,7 +453,10 @@ function CommunityBuilds() {
 
               <button
                 className="close-modal-btn"
-                onClick={() => setShowUploadForm(false)}
+                onClick={() => {
+                  track("Close Build Upload Form");
+                  setShowUploadForm(false)
+                }}
                 type="button"
               >
                 ×
