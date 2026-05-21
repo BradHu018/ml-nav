@@ -6,93 +6,6 @@ const API_BASE = import.meta.env.VITE_API_URL;
 const API_URL = `${API_BASE}/api/builds`;
 const FAVORITES_API_URL = `${API_BASE}/api/favorites`;
 
-const starterBuilds = [
-  {
-    id: "starter-1",
-    user_id: null,
-    username: "ProGamer99",
-    hero_name: "Fanny",
-    build_name: "Cable Queen Assassin",
-    description: "High burst mobility build for snowballing with Fanny.",
-    emblem: "Assassin",
-    battle_spell: "Retribution",
-    is_public: true,
-    upvotes: 2847,
-    downvotes: 0,
-    build_items: [
-      "Blade of Despair",
-      "Hunter Strike",
-      "Endless Battle",
-      "War Axe",
-      "Malefic Gun",
-      "Immortality",
-    ],
-  },
-  {
-    id: "starter-2",
-    user_id: null,
-    username: "MageMaster",
-    hero_name: "Gusion",
-    build_name: "One-Shot Mage Build",
-    description: "Burst magic build for quickly deleting squishy enemies.",
-    emblem: "Mage",
-    battle_spell: "Execute",
-    is_public: true,
-    upvotes: 2634,
-    downvotes: 0,
-    build_items: [
-      "Genius Wand",
-      "Divine Glaive",
-      "Holy Crystal",
-      "Blood Wings",
-      "Concentrated Energy",
-      "Winter Crown",
-    ],
-  },
-  {
-    id: "starter-3",
-    user_id: null,
-    username: "SkyWalker",
-    hero_name: "Ling",
-    build_name: "Fast Split Push Assassin",
-    description: "High mobility assassin build focused on split pushing.",
-    emblem: "Assassin",
-    battle_spell: "Retribution",
-    is_public: true,
-    upvotes: 1982,
-    downvotes: 0,
-    build_items: [
-      "Berserker's Fury",
-      "Endless Battle",
-      "Blade of Despair",
-      "Malefic Gun",
-      "Windtalker",
-      "Immortality",
-    ],
-  },
-  {
-    id: "starter-4",
-    user_id: null,
-    username: "DaggerMaster",
-    hero_name: "Gusion",
-    build_name: "Burst Combo Build",
-    description: "Combo-heavy Gusion build for fast pickoffs.",
-    emblem: "Mage",
-    battle_spell: "Execute",
-    is_public: true,
-    upvotes: 1401,
-    downvotes: 0,
-    build_items: [
-      "Starlium Scythe",
-      "Divine Glaive",
-      "Blood Wings",
-      "Genius Wand",
-      "Holy Crystal",
-      "Winter Crown",
-    ],
-  },
-];
-
 function CommunityBuilds() {
   const [backendBuilds, setBackendBuilds] = useState([]);
   const [search, setSearch] = useState("");
@@ -122,8 +35,7 @@ function CommunityBuilds() {
     fetchTopBuilds();
   }, []);
 
-  const allBuilds = [...backendBuilds, ...starterBuilds];
-
+  
   const displayBuilds = allBuilds
     .filter((build) => {
       const searchText = search.trim().toLowerCase();
@@ -210,11 +122,6 @@ function CommunityBuilds() {
   }
 
   async function handleUpvote(buildId) {
-
-    if (String(buildId).startsWith("starter-")) {
-        setError("Starter builds are demo builds and cannot be upvoted.");
-        return;
-    }
     const token = localStorage.getItem("token");
 
     if (!token) {
@@ -249,6 +156,14 @@ function CommunityBuilds() {
                 : build
             )
         );
+        const upvotedBuild = backendBuilds.find((build) => build.id === buildId);
+
+        track("Upvote Community Build", {
+          buildId,
+          hero: upvotedBuild?.hero_name || "unknown",
+          upvotes: data.upvotes,
+        });
+
     } catch (err) {
         setError(err.message);
     }
@@ -256,11 +171,6 @@ function CommunityBuilds() {
   }
 
   async function handleSaveBuild(buildId) {
-     if (String(buildId).startsWith("starter-")) {
-        setError("Starter builds are demo builds and cannot be saved.");
-        return;
-      }
-
       const token = localStorage.getItem("token");
 
       if (!token) {
@@ -270,6 +180,13 @@ function CommunityBuilds() {
 
       setError("");
       setMessage("");
+
+      const savedBuild = backendBuilds.find((build) => build.id === buildId);
+
+      track("Save Community Build", {
+        buildId,
+        hero: savedBuild?.hero_name || "unknown",
+      });
 
       try {
         const response = await fetch(`${FAVORITES_API_URL}/${buildId}`, {
@@ -350,6 +267,14 @@ function CommunityBuilds() {
           ? "Build uploaded publicly."
           : "Build saved privately."
       );
+
+      track("Create Build", {
+        hero: newBuild.hero_name,
+        buildName: newBuild.build_name,
+        emblem: newBuild.emblem,
+        battleSpell: newBuild.battle_spell,
+        isPublic: newBuild.is_public,
+      });
 
       setFormData({
         hero_name: "",

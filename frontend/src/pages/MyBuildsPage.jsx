@@ -1,5 +1,6 @@
 import MyBuilds from "../components/MyBuilds";
 import "../App.css";
+import { track } from "@vercel/analytics";
 
 function MyBuildsPage() {
   return (
