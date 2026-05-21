@@ -38,8 +38,8 @@ async function saveBuild(req, res) {
             `
             INSERT INTO build_favorites (user_id, build_id)
             VALUES (?, ?)
+            `,
             [userId, buildId]
-            `
         );
 
         return res.status(201).json({
